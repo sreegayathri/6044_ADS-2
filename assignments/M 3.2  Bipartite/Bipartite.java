@@ -44,7 +44,6 @@ public class Bipartite {
 
     /**
      * DFS.
-     * 
      * complexity: O(vertices + edges).
      *
      * @param      graph  The graph
