@@ -7,6 +7,4 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] G:\ADS-2\6044_ADS-2\assignments\M 2   CC_Percolation\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
