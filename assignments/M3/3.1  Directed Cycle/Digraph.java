@@ -196,7 +196,7 @@ public class Digraph {
 
     /**
      * Returns the reverse of the digraph.
-     * 
+     *
      * Complexity: vertices + edges.
      *
      * @return the reverse of the digraph
