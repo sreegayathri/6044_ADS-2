@@ -26,10 +26,9 @@ Starting audit...
 [ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Bag.java:123: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Bag.java:123:35: '{' at column 35 should have line break after. [LeftCurly]
 [ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Bag.java:125:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Bag.java:126: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Bag.java:128: Line has trailing spaces. [RegexpSingleline]
+[ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Bag.java:126:29: '{' at column 29 should have line break after. [LeftCurly]
 Audit done.
-Checkstyle ends with 29 errors.
+Checkstyle ends with 28 errors.
 Starting audit...
 [ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Digraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Digraph.java:67:16: Name 'Vertice' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
@@ -541,10 +540,9 @@ Starting audit...
 [ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Bag.java:123: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Bag.java:123:35: '{' at column 35 should have line break after. [LeftCurly]
 [ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Bag.java:125:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Bag.java:126: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Bag.java:128: Line has trailing spaces. [RegexpSingleline]
+[ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Bag.java:126:29: '{' at column 29 should have line break after. [LeftCurly]
 Audit done.
-Checkstyle ends with 29 errors.
+Checkstyle ends with 28 errors.
 Starting audit...
 [ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\In.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\In.java:27: Line has trailing spaces. [RegexpSingleline]

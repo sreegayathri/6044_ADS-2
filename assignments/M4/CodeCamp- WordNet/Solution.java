@@ -37,6 +37,7 @@ public final class Solution {
         }*/
         switch(line) {
             case "Graph":
+            wordNet.printGraph();
             break;
             case "Queries":
             break;
