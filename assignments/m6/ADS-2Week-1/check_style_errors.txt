@@ -352,25 +352,19 @@ Audit done.
 Checkstyle ends with 34 errors.
 Starting audit...
 [ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:15:14: Parameter g should be final. [FinalParameters]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:18:37: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:20:29: '1000' is a magic number. [MagicNumber]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:24:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:24:27: Parameter list should be final. [FinalParameters]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:24:42: Parameter g should be final. [FinalParameters]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:31:49: 'typecast' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:46:25: Parameter v should be final. [FinalParameters]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:49: First sentence should end with a period. [JavadocStyle]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:79: Line has trailing spaces. [RegexpSingleline]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:84: Missing a Javadoc comment. [JavadocType]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:84:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:85:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:85:29: Parameter args should be final. [FinalParameters]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:95:27: ';' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:95:47: ';' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:96: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:24: First sentence should end with a period. [JavadocStyle]
+[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:54:25: Parameter v should be final. [FinalParameters]
+[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:57: First sentence should end with a period. [JavadocStyle]
+[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:92: Missing a Javadoc comment. [JavadocType]
+[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:92:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:93:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:93:29: Parameter args should be final. [FinalParameters]
+[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:103:27: ';' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:103:47: ';' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Solution.java:104: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
-Checkstyle ends with 18 errors.
+Checkstyle ends with 12 errors.
 Starting audit...
 [ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] G:\ADS-2\assignments\m6\ADS-2Week-1\Stack.java:13: Line has trailing spaces. [RegexpSingleline]

@@ -12,23 +12,31 @@ class PageRank {
      *
      * @param      g     { parameter_description }
      */
-    PageRank(Digraph g) {
+    PageRank(final Digraph g) {
         rank = new double[g.V()];
         for (int i = 0; i < g.V(); i++) {
-            rank[i] = 1.0 / (double)(g.V());
+            rank[i] = 1.0 / (double) (g.V());
         }
         for (int k = 0; k < 1000; k++) {
             rank = prcal(rank, g);
         }
     }
-    public double[] prcal(double[] list, Digraph g) {
+    /**
+     * { function_description }
+     *
+     * @param      list  The list
+     * @param      g     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public double[] prcal(final double[] list, final Digraph g) {
         double[] rlist = new double[g.V()];
         for (int i = 0; i < g.V(); i++) {
             double pr = 0.0;
             for (int j = 0; j < g.V(); j++) {
                 for (int each : g.adj(j)) {
                     if (each == i) {
-                        pr += list[j] / (double)g.outdegree(j);
+                        pr += list[j] / (double) g.outdegree(j);
                     }
                 }
             }
@@ -76,7 +84,7 @@ class PageRank {
 //     WebSearch(PageRank pr, String filename) {
 //     }
 //     public int ​iAmFeelingLucky​​(String query) {
-        
+
 //     }
 // }
 
