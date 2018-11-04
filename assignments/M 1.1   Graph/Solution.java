@@ -1,5 +1,38 @@
 import java.util.Scanner;
 /**
+ * Interface for graph.
+ */
+interface Graph {
+    /**
+     * no of vertices.
+     *
+     * @return     { description_of_the_return_value }
+     */
+    int vertices();
+    /**
+     * no of edges.
+     *
+     * @return     { description_of_the_return_value }
+     */
+    int edges();
+    /**
+     * Adds an edge.
+     *
+     * @param      v     { parameter_description }
+     * @param      w     { parameter_description }
+     */
+    void addEdge(int v, int w);
+    /**
+     * Determines if it has edge.
+     *
+     * @param      v     { parameter_description }
+     * @param      w     { parameter_description }
+     *
+     * @return     True if has edge, False otherwise.
+     */
+    boolean hasEdge(int v, int w);
+}
+/**
  * Class for graphmatrix.
  */
 class Graphmatrix implements Graph {
@@ -110,39 +143,6 @@ class Graphmatrix implements Graph {
             System.out.println(s.substring(0, s.length() - 1));
         }
     }
-}
-/**
- * Interface for graph.
- */
-interface Graph {
-    /**
-     * no of vertices.
-     *
-     * @return     { description_of_the_return_value }
-     */
-    int vertices();
-    /**
-     * no of edges.
-     *
-     * @return     { description_of_the_return_value }
-     */
-    int edges();
-    /**
-     * Adds an edge.
-     *
-     * @param      v     { parameter_description }
-     * @param      w     { parameter_description }
-     */
-    void addEdge(int v, int w);
-    /**
-     * Determines if it has edge.
-     *
-     * @param      v     { parameter_description }
-     * @param      w     { parameter_description }
-     *
-     * @return     True if has edge, False otherwise.
-     */
-    boolean hasEdge(int v, int w);
 }
 /**
  * Class for graphList.
