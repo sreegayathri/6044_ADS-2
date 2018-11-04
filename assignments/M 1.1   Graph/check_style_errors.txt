@@ -74,38 +74,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 58 errors.
 Starting audit...
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:5: Type Javadoc comment is missing @param <Item> tag. [JavadocType]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:6:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:7:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:8:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:11: Missing a Javadoc comment. [JavadocType]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:12:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:13:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:50: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:59:25: Parameter item should be final. [FinalParameters]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:64: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:65: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:76: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:80: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:96: Line has trailing spaces. [RegexpSingleline]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:99: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:101: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:104: Line has trailing spaces. [RegexpSingleline]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:108: Missing a Javadoc comment. [JavadocType]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:109:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:111:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:111:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:111:29: Parameter first should be final. [FinalParameters]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:111:40: 'first' hides a field. [HiddenField]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:115: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:115:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:116: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:116:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:118:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:119: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] G:\ADS-2\assignments\M 1.1   Graph\Queue.java:121: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 30 errors.
 Starting audit...
 [ERROR] G:\ADS-2\assignments\M 1.1   Graph\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
