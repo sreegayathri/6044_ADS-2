@@ -127,7 +127,7 @@ public class LinearProbingHashST<Key, Value> {
         if (key == null) { throw 
             new IllegalArgumentException("argument to get() is null");
         }
-        for (int i = hash(key) { keys[i] != null; i = (i + 1) % m)
+        for (int i = hash(key) keys[i] != null; i = (i + 1) % m) {
             if (keys[i].equals(key)) {
                 return vals[i];
             }
@@ -173,7 +173,7 @@ public class LinearProbingHashST<Key, Value> {
         n--;
 
         // halves size of array if it's 12.5% full or less
-        if (n > 0 && n <= m / 8) { resize(m / 2); }
+        if (n > 0 && n <= m / (2 + 2 + 2 + 2)) { resize(m / 2); }
 
         assert check();
     }
