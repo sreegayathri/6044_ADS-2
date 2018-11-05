@@ -1,42 +1,30 @@
 import java.util.Scanner;
-/**
- * Class for solution.
- */
 class Solution {
-    /**
-     * Constructs the object.
-     */
-    Solution() {
-        // empty.
-    }
-    /**.
-     * { function_description }
-     *
-     * @param      args  The arguments
-     */
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String synsetsFile = scan.nextLine();
-        String hypernymsFile = scan.nextLine();
-        synsetsFile = "\\Files\\" + synsetsFile;
-        hypernymsFile = "\\Files\\" + hypernymsFile;
-        WordNet wordnet = new WordNet(synsetsFile, hypernymsFile);
-        String line = scan.nextLine();
-        switch (line) {
-            case "Graph":
-            wordnet.printGraph();
-                break;
-            case "Queries":
-            // wordnet.printGraph();
-            while(scan.hasNext()) {
-                String[] tokens = scan.nextLine().split(" ");
-                if (tokens[0].equals("null")) {
-                    System.out.println("IllegalArgumentException");
-                }
-            }
-                break;
-            default:
-                break;
-        } 
-    }
+
+	public static void readFile(String fileName) {
+		In in = new In("\\Files\\" + fileName);
+		while (!in.isEmpty()) {
+
+		}
+		System.out.println("After while loopp....");
+ 	}
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String synsetsFileName = scan.nextLine();
+		String hypernymsFileName = scan.nextLine();
+		synsetsFileName = "\\Files\\" + synsetsFileName;
+		hypernymsFileName = "\\Files\\" + hypernymsFileName;
+		WordNet wordNet = new WordNet(synsetsFileName, hypernymsFileName);
+		String line = scan.nextLine();
+		switch(line) {
+			case "Graph":
+			wordNet.printGraph();
+			break;
+			case "Queries":
+			break;
+			default:
+			break;
+		}
+	}
 }

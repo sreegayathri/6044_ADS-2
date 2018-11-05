@@ -29,27 +29,8 @@ public class WordNet {
         }
         return graph;
     }
-    public boolean multipleRoot(Digraph graph) {
-        int count = 0;
-        for (int i = 0; i<graph.V(); i++) {
-            if (graph.outdegree(i)==0) {
-                count++;
-            }
-        }
-        if (count == 1) {
-            return true;
-        }
-        return false;
-    }
+
     public void printGraph() {
-        DirectedCycle directedcycle = new DirectedCycle(graph);
-        if (directedcycle.hasCycle()) {
-            System.out.println("Cycle detected");
-            return;
-        } else if  (!multipleRoot(graph)) {
-        System.out.println("Multiple roots");
-        return;
-        }
         System.out.println(graph);
     }
 
@@ -57,8 +38,8 @@ public class WordNet {
     public WordNet(String synsets, String hypernyms) {
         int count = processSynsets(synsets);
         graph = buildGraph(hypernyms, count);
-        // printGraph();
-        // System.out.println("Count = " + count);
+        printGraph();
+        System.out.println("Count = " + count);
     }
 
     // returns all WordNet nouns
@@ -82,7 +63,7 @@ public class WordNet {
     }
 
     // do unit testing of this class
-    public static void main(String[] args) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    public static void main(String[] args) {
 
     }
 }
