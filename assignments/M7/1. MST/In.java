@@ -212,42 +212,45 @@ public final class In {
         return scanner != null;
     }
     
-    ////  begin: section (2 of 2) of code duplicated from In to StdIn,
-    ////  with all methods changed from "public" to "public static".
+////  begin: section (2 of 2) of code duplicated from In to StdIn,
+////  with all methods changed from "public" to "public static".
 
-   /**
-     * Returns true if input stream is empty (except possibly whitespace).
-     * Use this to know whether the next call to {@link #readString()}, 
-     * {@link #readDouble()}, etc will succeed.
-     *
-     * @return {@code true} if this input stream is empty (except possibly whitespace);
-     *         {@code false} otherwise
-     */
+/**
+ * Returns true if input stream is empty (except possibly whitespace).
+ * Use this to know whether the next call to {@link #readString()}, 
+ * {@link #readDouble()}, etc will succeed.
+ *
+ * @return {@code true} if this input stream is empty (except possibly whitespace);
+ *         {@code false} otherwise
+ */
     public boolean isEmpty() {
         return !scanner.hasNext();
     }
 
-   /** 
-     * Returns true if this input stream has a next line.
-     * Use this method to know whether the
-     * next call to {@link #readLine()} will succeed.
-     * This method is functionally equivalent to {@link #hasNextChar()}.
-     *
-     * @return {@code true} if this input stream has more input (including whitespace);
-     *         {@code false} otherwise
-     */
+/** 
+ * Returns true if this input stream has a next line.
+ * Use this method to know whether the
+ * next call to {@link #readLine()} will succeed.
+ * This method is functionally equivalent to {@link #hasNextChar()}.
+ *
+ * @return {@code true} if this input stream has more input
+ * (including whitespace);
+ *         {@code false} otherwise
+ */
     public boolean hasNextLine() {
         return scanner.hasNextLine();
     }
 
-    /**
-     * Returns true if this input stream has more input (including whitespace).
-     * Use this method to know whether the next call to {@link #readChar()} will succeed.
-     * This method is functionally equivalent to {@link #hasNextLine()}.
-     * 
-     * @return {@code true} if this input stream has more input (including whitespace);
-     *         {@code false} otherwise   
-     */
+/**
+ * Returns true if this input stream has more input (including whitespace).
+ * Use this method to know whether the next call to {@link #readChar()}
+ * will succeed.
+ * This method is functionally equivalent to {@link #hasNextLine()}.
+ * 
+ * @return {@code true} if this input stream has more input
+ * (including whitespace);
+ *         {@code false} otherwise   
+ */
     public boolean hasNextChar() {
         scanner.useDelimiter(EMPTY_PATTERN);
         boolean result = scanner.hasNext();
@@ -259,7 +262,7 @@ public final class In {
    /**
      * Reads and returns the next line in this input stream.
      *
-     * @return the next line in this input stream; {@code null} if no such line
+ * @return the next line in this input stream; {@code null} if no such line
      */
     public String readLine() {
         String line;
@@ -288,8 +291,9 @@ public final class In {
             return ch.charAt(0);
         }
         catch (NoSuchElementException e) {
-            throw new NoSuchElementException("attempts to read a 'char' value from the input stream, "
-                                           + "but no more tokens are available");
+            throw new NoSuchElementException(
+        	"attempts to read a 'char' value from the input stream, "
+                                   + "but no more tokens are available");
         }
     }  
 
