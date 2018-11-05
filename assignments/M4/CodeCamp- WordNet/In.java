@@ -1,11 +1,11 @@
-/************************************
- *  Compilation: javac In.java
- *  Execution: java In(basic test ---
- *  see source for required files)
+/******************************************************************************
+ *  Compilation:  javac In.java
+ *  Execution:    java In   (basic test --- see source for required files)
  *  Dependencies: none
- *  Reads in data of various typesfrom
- *  standard input, files, and URLs.
- *************************************/
+ *
+ *  Reads in data of various types from standard input, files, and URLs.
+ *
+ ******************************************************************************/
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.net.Socket;
+// import java.net.HttpURLConnection;
 import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
@@ -23,12 +24,14 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 /**
- *  Input, This class provides methods for reading strings
+ *  <i>Input</i>. This class provides methods for reading strings
  *  and numbers from standard input, file input, URLs, and sockets. 
- *  The Locale used is:language = English, country = US.This is consistent
+ *  <p>
+ *  The Locale used is: language = English, country = US. This is consistent
  *  with the formatting conventions with Java floating-point literals,
- *  command-line arguments(via {@link Double#parseDouble(String)})
- *  and standard output.
+ *  command-line arguments (via {@link Double#parseDouble(String)})
+ *  and standard output. 
+ *  <p>
  *  For additional documentation, see 
  *  <a href="https://introcs.cs.princeton.edu/31datatype">Section 3.1</a> of
  *  <i>Computer Science: An Interdisciplinary Approach</i> 

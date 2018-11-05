@@ -1,48 +1,42 @@
-//import java.io.File;
-/**
- * { importing scanner }.
- */
 import java.util.Scanner;
 /**
  * Class for solution.
  */
-public final class Solution {
+class Solution {
     /**
      * Constructs the object.
      */
-    private Solution() { }
-    /**
+    Solution() {
+        // empty.
+    }
+    /**.
      * { function_description }
      *
      * @param      args  The arguments
      */
-    public static void main(final String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String synsetsFile = sc.nextLine();
-        String hypernymFile = sc.nextLine();
-        String line = sc.nextLine();
-        WordNet wordNet = new WordNet("Files/" + synsetsFile, 
-            "Files/" + hypernymFile);
-/*        try {
-            File file =
-                new File("Files//synsets.txt");
-            Scanner sc = new Scanner(file);
-            while (sc.hasNextLine()) {
-                System.out.println(sc.nextLine());
-            }
-        } catch(Exception e) { }
-        try {
-            Files files =
-                new Files("Files//hypernyms.txt")
-        }*/
-        switch(line) {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String synsetsFile = scan.nextLine();
+        String hypernymsFile = scan.nextLine();
+        synsetsFile = "\\Files\\" + synsetsFile;
+        hypernymsFile = "\\Files\\" + hypernymsFile;
+        WordNet wordnet = new WordNet(synsetsFile, hypernymsFile);
+        String line = scan.nextLine();
+        switch (line) {
             case "Graph":
-            wordNet.printGraph();
-            break;
+            wordnet.printGraph();
+                break;
             case "Queries":
-            break;
+            // wordnet.printGraph();
+            while(scan.hasNext()) {
+                String[] tokens = scan.nextLine().split(" ");
+                if (tokens[0].equals("null")) {
+                    System.out.println("IllegalArgumentException");
+                }
+            }
+                break;
             default:
-            break;
-        }
+                break;
+        } 
     }
 }

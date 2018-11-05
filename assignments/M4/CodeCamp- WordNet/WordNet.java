@@ -24,46 +24,43 @@ public class WordNet {
         while (!in.isEmpty()) {
             String[] tokens = in.readLine().split(",");
             for (int i = 1; i < tokens.length; i++) {
-                graph.addEdge(Integer.
-                    parseInt(tokens[0]), Integer.
-                    parseInt(tokens[i]));
+                graph.addEdge(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[i]));
             }
         }
         return graph;
     }
-    private boolean isRootedDAG(Digraph graph) {
+    public boolean multipleRoot(Digraph graph) {
         int count = 0;
-        for (int v = 0; v < graph.Vertice(); v++) {
-            if (graph.outdegree(v) == 0) {
+        for (int i = 0; i<graph.V(); i++) {
+            if (graph.outdegree(i)==0) {
                 count++;
             }
         }
         if (count == 1) {
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
     public void printGraph() {
-        DirectedCycle dc = new DirectedCycle(graph);
-        if (dc.hasCycle()) {
+        DirectedCycle directedcycle = new DirectedCycle(graph);
+        if (directedcycle.hasCycle()) {
             System.out.println("Cycle detected");
-        } else if (!isRootedDAG(graph)) {
-            System.out.println("Multiple roots");
-        } else {
-            System.out.println(graph);
+            return;
+        } else if  (!multipleRoot(graph)) {
+        System.out.println("Multiple roots");
+        return;
         }
-
+        System.out.println(graph);
     }
 
     // constructor takes the name of the two input files
     public WordNet(String synsets, String hypernyms) {
         int count = processSynsets(synsets);
         graph = buildGraph(hypernyms, count);
-        printGraph();
-        System.out.println("Count = " + count);
+        // printGraph();
+        // System.out.println("Count = " + count);
     }
-//10.46am
+
     // returns all WordNet nouns
     public Iterable<String> nouns() {
         return ht.keys();
@@ -85,7 +82,7 @@ public class WordNet {
     }
 
     // do unit testing of this class
-    public static void main(String[] args) {
+    public static void main(String[] args) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 
     }
 }

@@ -16,4 +16,5 @@
     public int ancestor(Iterable<Integer> v, Iterable<Integer> w)
 
     // do unit testing of this class
+    public static void main(String[] args)
 }*/
