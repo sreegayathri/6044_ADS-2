@@ -2,7 +2,7 @@ Starting audit...
 [ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Solution.java:17:29: Parameter args should be final. [FinalParameters]
-[ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Solution.java:31:18: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Solution.java:31:18: 'while' is not followed by whitespace. [WhitespaceAround]
 [ERROR] G:\ADS-2\assignments\M4\CodeCamp- WordNet\Solution.java:40: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 5 errors.
