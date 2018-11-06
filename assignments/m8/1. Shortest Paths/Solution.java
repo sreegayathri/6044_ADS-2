@@ -34,13 +34,14 @@ public final class Solution {
    * @param      args  The arguments
    */
   public static void main(final String[] args) {
-    Scanner scan = new Scanner(System.in);
-    int vertices = scan.nextInt();
-    int edges = scan.nextInt();
-    scan.nextLine();
     Solution sol = new Solution();
+    Scanner scan = new Scanner(System.in);
+    String[] values = scan.nextLine().split(" ");
+    int vertices = Integer.parseInt(values[0]);
+    int edges = Integer.parseInt(values[1]);
     String[] tokens = scan.nextLine().split(" ");
-    for(int j = 0; j<tokens.length; j++){
+    sol.root = new String[tokens.length];
+    for (int j = 0; j < tokens.length; j++) {
       sol.root[j] = tokens[j];
     }
     EdgeWeightedDigraph eg = new EdgeWeightedDigraph(vertices);
@@ -60,7 +61,7 @@ public final class Solution {
       int home = sol.getIndex(tokens1[0]);
       DijkstraSP l = new DijkstraSP(eg, home);
       int destination = sol.getIndex(tokens1[1]);
-      System.out.printf("%d to %d (%.2f)\n", l.distTo(destination));
+      System.out.printf("%d\n", l.distTo(destination));
       i--;
     }
   }
