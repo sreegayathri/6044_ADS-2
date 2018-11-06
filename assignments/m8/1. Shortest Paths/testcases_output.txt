@@ -9,7 +9,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:38)
+	at Solution.main(Solution.java:44)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -23,7 +23,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:38)
+	at Solution.main(Solution.java:44)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -730,7 +730,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:38)
+	at Solution.main(Solution.java:44)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -4190,7 +4190,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:38)
+	at Solution.main(Solution.java:44)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -6565,7 +6565,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:38)
+	at Solution.main(Solution.java:44)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -11523,6 +11523,6 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:38)
+	at Solution.main(Solution.java:44)
 ----------------------------------------
 

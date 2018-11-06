@@ -213,13 +213,12 @@ Starting audit...
 [ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:6:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:6:12: Variable 'root' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:14:3: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:14:24: Parameter str should be final. [FinalParameters]
-[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:37:8: 'for' is not followed by whitespace. [WhitespaceAround]
-[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:37:21: '<' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:37:22: '<' is not followed by whitespace. [WhitespaceAround]
-[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:37:41: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:20:24: Parameter str should be final. [FinalParameters]
+[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:43:8: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:43:21: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:43:22: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:43:41: '{' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 8 errors.
 Starting audit...
 Audit done.

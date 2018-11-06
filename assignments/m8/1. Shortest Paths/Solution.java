@@ -10,7 +10,13 @@ public final class Solution {
   private Solution() {
     // unused
   }
-
+/**
+ * Gets the index.
+ *
+ * @param      str   The string
+ *
+ * @return     The index.
+ */
   private int getIndex(String str) {
     int index = 0;
     for (int i = 0; i < root.length; i++) {
@@ -28,11 +34,11 @@ public final class Solution {
    * @param      args  The arguments
    */
   public static void main(final String[] args) {
-    Solution sol = new Solution();
     Scanner scan = new Scanner(System.in);
     int vertices = scan.nextInt();
     int edges = scan.nextInt();
     scan.nextLine();
+    Solution sol = new Solution();
     String[] tokens = scan.nextLine().split(" ");
     for(int j = 0; j<tokens.length; j++){
       sol.root[j] = tokens[j];
