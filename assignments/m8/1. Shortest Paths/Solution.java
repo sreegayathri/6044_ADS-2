@@ -10,17 +10,11 @@ public final class Solution {
   private Solution() {
     // unused
   }
-/**
- * Gets the index.
- *
- * @param      str   The string
- *
- * @return     The index.
- */
+
   private int getIndex(String str) {
     int index = 0;
     for (int i = 0; i < root.length; i++) {
-      if (str == root[i]) {
+      if (str.equals(root[i])) {
         index = i;
       }
     }
@@ -44,24 +38,23 @@ public final class Solution {
     for (int j = 0; j < tokens.length; j++) {
       sol.root[j] = tokens[j];
     }
-    EdgeWeightedDigraph eg = new EdgeWeightedDigraph(vertices);
+    EdgeWeightedGraph eg = new EdgeWeightedGraph(vertices);
     while (edges > 0) {
       String[] token = scan.nextLine().split(" ");
       int first = sol.getIndex(token[0]);
       int second = sol.getIndex(token[1]);
       int weight = Integer.parseInt(token[2]);
-      DirectedEdge e = new DirectedEdge(first, second, weight);
+      Edge e = new Edge(first, second, weight);
       eg.addEdge(e);
-      System.out.println(eg);
       edges--;
     }
     int i = Integer.parseInt(scan.nextLine());
     while (i > 0) {
       String[] tokens1 = scan.nextLine().split(" ");
       int home = sol.getIndex(tokens1[0]);
-      DijkstraSP l = new DijkstraSP(eg, home);
+      SP l = new SP(eg, home);
       int destination = sol.getIndex(tokens1[1]);
-      System.out.printf("%d\n", l.distTo(destination));
+      System.out.printf("%d\n", (int) l.distTo(destination));
       i--;
     }
   }
