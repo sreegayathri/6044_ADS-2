@@ -54,7 +54,7 @@ public final class Solution {
       int home = sol.getIndex(tokens1[0]);
       DijkstraSP l = new DijkstraSP(eg, home);
       int destination = sol.getIndex(tokens1[1]);
-      System.out.printf("%f\n", l.distTo(destination));
+      System.out.printf("%d to %d (%.2f)\n", l.distTo(destination));
       i--;
     }
   }
