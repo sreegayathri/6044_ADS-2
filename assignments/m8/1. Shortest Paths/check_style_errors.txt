@@ -215,7 +215,7 @@ Starting audit...
 [ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:6:12: Variable 'root' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:14:3: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:14:24: Parameter str should be final. [FinalParameters]
-[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:37:8: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:37:8: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:37:21: '<' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:37:22: '<' is not followed by whitespace. [WhitespaceAround]
 [ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:37:41: '{' is not preceded with whitespace. [WhitespaceAround]
