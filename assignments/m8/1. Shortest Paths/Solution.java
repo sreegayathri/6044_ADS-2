@@ -1,9 +1,13 @@
 import java.util.Scanner;
 /**
  * Class for solution.
+ * @author sreegayathri.
  */
 public final class Solution {
-  String[] root;
+  /**.
+   * { root array }
+   */
+  private String[] root;
   /**
    * Constructs the object.
    */
@@ -17,7 +21,7 @@ public final class Solution {
  *
  * @return     The index.
  */
-  private int getIndex(String str) {
+  private int getIndex(final String str) {
     int index = 0;
     for (int i = 0; i < root.length; i++) {
       if (str.equals(root[i])) {

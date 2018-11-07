@@ -1,9 +1,5 @@
 Starting audit...
-[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:6:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:6:12: Variable 'root' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] G:\ADS-2\assignments\m8\1. Shortest Paths\Solution.java:20:24: Parameter str should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 3 errors.
 Files to process must be specified, found 0.
 Files to process must be specified, found 0.
 Files to process must be specified, found 0.
