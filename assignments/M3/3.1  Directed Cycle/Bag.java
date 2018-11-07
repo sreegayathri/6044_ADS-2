@@ -44,7 +44,7 @@ public class Bag<Item> implements Iterable<Item> {
     /**
      * Determines if empty.
      * Is the BAG empty?
-     *
+     * time complexity O(1).
      * @return     True if empty, False otherwise.
      */
     public boolean isEmpty() {
