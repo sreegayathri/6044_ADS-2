@@ -10,7 +10,13 @@ public final class Solution {
   private Solution() {
     // unused
   }
-
+/**
+ * Gets the index.
+ *
+ * @param      str   The string
+ *
+ * @return     The index.
+ */
   private int getIndex(String str) {
     int index = 0;
     for (int i = 0; i < root.length; i++) {
