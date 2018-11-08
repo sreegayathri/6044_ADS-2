@@ -1,8 +1,22 @@
+/**
+ * Class for word net.
+ */
 public class WordNet {
-
+/**
+ * Hash table to store items.
+ */
     LinearProbingHashST<String, Integer> ht;
+    /**
+     * graph which is directed.
+     */
     Digraph graph;
-
+/**
+ * { function_description }
+ *
+ * @param      synsets  The synsets
+ *
+ * @return     { description_of_the_return_value }
+ */
     private int processSynsets(String synsets) {
         In in = new In(synsets);
         int count = 0;
@@ -24,7 +38,9 @@ public class WordNet {
         while (!in.isEmpty()) {
             String[] tokens = in.readLine().split(",");
             for (int i = 1; i < tokens.length; i++) {
-                graph.addEdge(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[i]));
+                graph.addEdge(Integer.
+                    parseInt(tokens[0]), Integer.
+                    parseInt(tokens[i]));
             }
         }
         return graph;
@@ -75,7 +91,8 @@ public class WordNet {
         return 0; 
     }
 
-    // a synset (second field of synsets.txt) that is the common ancestor of nounA and nounB
+    // a synset (second field of synsets.txt) that is the
+    //  common ancestor of nounA and nounB
     // in a shortest ancestral path (defined below)
     public String sap(String nounA, String nounB) {
         return null;
