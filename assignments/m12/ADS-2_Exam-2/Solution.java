@@ -26,6 +26,9 @@ public final class Solution {
             graph1.addEdge(new DirectedEdge(Integer.
                 parseInt(tokens[0]), Integer.
                 parseInt(tokens[1]), Double.parseDouble(tokens[2])));
+            graph1.addEdge(new DirectedEdge(Integer.
+                parseInt(tokens[0]), Integer.
+                parseInt(tokens[1]), Double.parseDouble(tokens[2])));
         }
         String caseToGo = sc.nextLine();
         switch (caseToGo) {
@@ -56,18 +59,18 @@ public final class Solution {
             // If the path exists print the distance between them.
             // Other wise print "No Path Found."
 
-            /*String[] point = scan.nextLine().split(" ");
-            DijkstraSP source1 = new DijkstraSP(graph, Integer.
-                parseInt(point[0]));
-            DijkstraSP source2 = new DijkstraSP(graph, Integer.
-                parseInt(point[1]));
-            double weight1 = source1.distTo(Integer.parseInt(point[1]));
-            double weight2 = source2.distTo(Integer.parseInt(point[2]));
-            String str = point[0] + " ";
+            String[] point1 = sc.nextLine().split(" ");
+            DijkstraSP source1 = new DijkstraSP(graph1, Integer.
+                parseInt(point1[0]));
+            DijkstraSP source2 = new DijkstraSP(graph1, Integer.
+                parseInt(point1[1]));
+            double weight1 = source1.distTo(Integer.parseInt(point1[1]));
+            double weight2 = source2.distTo(Integer.parseInt(point1[2]));
+            String str = point1[0] + " ";
             if (weight1 == Double.POSITIVE_INFINITY || weight2 == Double.
                 POSITIVE_INFINITY) {
                 System.out.println("No Path Found.");
-            }*/
+            }
             break;
         default:
             break;
