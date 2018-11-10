@@ -23,6 +23,11 @@ public class Solution {
                 parseInt(tokens[1]), Double.
                 parseDouble(tokens[2])));
         }
+        EdgeWeightedDigraph graph1 = new EdgeWeightedDigraph(n);
+        for (int i = 0; i < k; i++) {
+            String[] token = sc.nextLine().split(" ");
+            graph1.addEdge(new DirectedEdge(Integer.parseInt(token[0]), Integer.parseInt(token[1]), Double.parseDouble(token[2])));
+        }
         String caseToGo = sc.nextLine();
         switch (caseToGo) {
         case "Graph":
@@ -35,6 +40,14 @@ public class Solution {
             // First is the source and second is the destination.
             // If the path exists print the distance between them.
             // Other wise print "No Path Found."
+            String[] point = sc.nextLine().split(" ");
+            DijkstraSP sp = new DijkstraSP(graph1, Integer.parseInt(point[0]));
+            double weight = sp.distTo(Integer.parseInt(point[1]));
+            if (weight != Double.POSITIVE_INFINITY) {
+                System.out.println(weight);
+            } else {
+                System.out.println("No Path Found.");
+            }
             break;
 
         case "ViaPaths":
@@ -43,8 +56,20 @@ public class Solution {
             // third is the destination.
             // If the path exists print the distance between them.
             // Other wise print "No Path Found."
-            break;
 
+            /*String[] point = scan.nextLine().split(" ");
+            DijkstraSP source1 = new DijkstraSP(graph, Integer.
+                parseInt(point[0]));
+            DijkstraSP source2 = new DijkstraSP(graph, Integer.
+                parseInt(point[1]));
+            double weight1 = source1.distTo(Integer.parseInt(point[1]));
+            double weight2 = source2.distTo(Integer.parseInt(point[2]));
+            String str = point[0] + " ";
+            if (weight1 == Double.POSITIVE_INFINITY || weight2 == Double.
+                POSITIVE_INFINITY) {
+                System.out.println("No Path Found.");
+            }*/
+            break;
         default:
             break;
         }
