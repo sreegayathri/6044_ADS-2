@@ -2,13 +2,13 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
 /**
  * { function_description }
  *
  * @param      args  The arguments
  */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         // Self loops are not allowed...
         // Parallel Edges are allowed...
         // Take the Graph input here...
@@ -16,17 +16,16 @@ public class Solution {
         int n = Integer.parseInt(sc.nextLine());
         int k = Integer.parseInt(sc.nextLine());
         EdgeWeightedGraph graph = new EdgeWeightedGraph(n);
+        EdgeWeightedDigraph graph1 = new EdgeWeightedDigraph(n);
         for(int i = 0; i < k; i++) {
             String[] tokens = sc.nextLine().split(" ");
             graph.addEdge(new Edge(Integer.
                 parseInt(tokens[0]), Integer.
                 parseInt(tokens[1]), Double.
                 parseDouble(tokens[2])));
-        }
-        EdgeWeightedDigraph graph1 = new EdgeWeightedDigraph(n);
-        for (int i = 0; i < k; i++) {
-            String[] token = sc.nextLine().split(" ");
-            graph1.addEdge(new DirectedEdge(Integer.parseInt(token[0]), Integer.parseInt(token[1]), Double.parseDouble(token[2])));
+            graph1.addEdge(new DirectedEdge(Integer.
+                parseInt(tokens[0]), Integer.
+                parseInt(tokens[1]), Double.parseDouble(tokens[2])));
         }
         String caseToGo = sc.nextLine();
         switch (caseToGo) {
