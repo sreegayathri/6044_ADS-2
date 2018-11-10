@@ -1,4 +1,5 @@
 /**.
+ *
  *  The {@code Edge} class represents a weighted edge in an 
  *  {@link EdgeWeightedGraph}. Each edge consists of two integers
  *  (naming the two vertices) and a real-value weight. The data type
