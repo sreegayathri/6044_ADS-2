@@ -1,22 +1,32 @@
+import java.util.ArrayList;
+
 /**
  * Class for word net.
  */
 public class WordNet {
-/**
- * Hash table to store items.
- */
+    /**
+     * Hash table to store items.
+     */
     LinearProbingHashST<String, Integer> ht;
     /**
      * graph which is directed.
      */
     Digraph graph;
-/**
- * { function_description }
- *
- * @param      synsets  The synsets
- *
- * @return     { description_of_the_return_value }
- */
+    /**
+     * sap object.
+     */
+    private SAP sap;
+    /**
+     * arraylist object.
+     */
+    private ArrayList<String> alist;
+    /**
+     * { function_description }
+     *
+     * @param      synsets  The synsets
+     *
+     * @return     { description_of_the_return_value }
+     */
     private int processSynsets(String synsets) {
         In in = new In(synsets);
         int count = 0;
@@ -39,16 +49,16 @@ public class WordNet {
             String[] tokens = in.readLine().split(",");
             for (int i = 1; i < tokens.length; i++) {
                 graph.addEdge(Integer.
-                    parseInt(tokens[0]), Integer.
-                    parseInt(tokens[i]));
+                              parseInt(tokens[0]), Integer.
+                              parseInt(tokens[i]));
             }
         }
         return graph;
     }
     public boolean multipleRoot(Digraph graph) {
         int count = 0;
-        for (int i = 0; i<graph.V(); i++) {
-            if (graph.outdegree(i)==0) {
+        for (int i = 0; i < graph.V(); i++) {
+            if (graph.outdegree(i) == 0) {
                 count++;
             }
         }
@@ -63,8 +73,8 @@ public class WordNet {
             System.out.println("Cycle detected");
             return;
         } else if  (!multipleRoot(graph)) {
-        System.out.println("Multiple roots");
-        return;
+            System.out.println("Multiple roots");
+            return;
         }
         System.out.println(graph);
     }
@@ -88,18 +98,24 @@ public class WordNet {
     }
     // distance between nounA and nounB (defined below)
     public int distance(String nounA, String nounB) {
-        return 0; 
+        return sap.length(ht.get(nounA), ht.get(nounB));
     }
 
-    // a synset (second field of synsets.txt) that is the
-    //  common ancestor of nounA and nounB
+    // a synset (second field of synsets.txt) that is the common ancestor of nounA and nounB
     // in a shortest ancestral path (defined below)
     public String sap(String nounA, String nounB) {
-        return null;
+        int ancestor = sap.ancestor(ht.get(nounA), ht.get(nounB));
+        return alist.get(ancestor);
     }
 
-    // do unit testing of this class
-    public static void main(String[] args) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-
+    public void processQuery(String query) {
+        String[] tokens = query.split(" ");
+        String str = "";
+        if (isNoun(tokens[0]) && isNoun(tokens[1])) {
+            sap = new SAP(graph);
+            str = sap(tokens[0], tokens[1]);
+            int distance = distance(tokens[0], tokens[1]);
+            System.out.println("distance = " + distance + ", ancestor = " + str);
+        }
     }
 }
