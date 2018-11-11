@@ -20,7 +20,7 @@ public class ConnectedComponents {
     private int count;
     /**
      * Computes the connected components of the undirected graph {@code G}.
-     *
+     * time complexity O(v).
      * @param gra the undirected graph
      */
     public ConnectedComponents(final Graph gra) {
@@ -36,7 +36,7 @@ public class ConnectedComponents {
     }
     /**
      * DFS of the Graph.
-     *
+     * time complexity O(v).
      * @param      gra     Graph.
      * @param      v     Starting Vertex.
      */
@@ -52,7 +52,7 @@ public class ConnectedComponents {
     }
     /**
      * Returns the component.
-     *
+     * time complexity O(1).
      * @param  v the vertex.
      * @return the component id.
      * @throws IllegalArgumentException unless {@code 0 <= v < V}.
@@ -63,7 +63,7 @@ public class ConnectedComponents {
     }
     /**
      * Returns the number of vertices.
-     *
+     * time complexity O(1).
      * @param  v the vertex
      * @return the number of vertices.
      * @throws IllegalArgumentException.
@@ -74,7 +74,7 @@ public class ConnectedComponents {
     }
     /**
      * Returns the number of connected.
-     *
+     * time complexity O(1).
      * @return the number of connected.
      */
     public int count() {
@@ -83,7 +83,7 @@ public class ConnectedComponents {
     /**
      * Returns true if vertices are in the same
      * connected component.
-     *
+     * time complexity O(1).
      * @param  v one vertex
      * @param  w the other vertex
      * @return if vertices and are in the same
@@ -99,7 +99,7 @@ public class ConnectedComponents {
     /**
      * Returns true if vertices are in the same
      * connected component.
-     *
+     * time complexity O(1).
      * @param  v one vertex
      * @param  w the other vertex
      * @return if vertices and are in the same
@@ -116,7 +116,7 @@ public class ConnectedComponents {
     }
     /**
      * Validates the Vertex.
-     *
+     * time complexity O(1).
      * @param      v     vertex
      */
     private void validateVertex(final int v) {

@@ -32,7 +32,7 @@ class Percolation {
     private int opened;
     /**
      * Constructs the object.
-     *
+     * time complexity O(1).
      * @param      s     Size of grid.
      */
     Percolation(final int s) {
@@ -46,7 +46,7 @@ class Percolation {
     }
     /**
      * To open the components.
-     *
+     * time complexity O(1).
      * @param      row     The row
      * @param      column  The column
      */
@@ -80,10 +80,9 @@ class Percolation {
     }
     /**
      * Determines if open.
-     *
      * @param      row     The row
      * @param      column  The column
-     *
+     * time complexity O(1).
      * @return     True if open, False otherwise.
      */
     public boolean isOpen(final int row, final int column) {
@@ -91,10 +90,9 @@ class Percolation {
     }
     /**
      * Determines if full.
-     *
      * @param      row     The row
      * @param      column  The column
-     *
+     * time complexity O(1).
      * @return     True if full, False otherwise.
      */
     public boolean isFull(final int row, final int column) {
@@ -105,7 +103,7 @@ class Percolation {
     }
     /**
      * Count of opened sites.
-     *
+     * time complexity O(1).
      * @return     Integer.
      */
     public int numberOfOpenSites() {
@@ -113,7 +111,7 @@ class Percolation {
     }
     /**
      * To check if the grid percolates.
-     *
+     * time complexity O(1).
      * @return     True if percolates, else false.
      */
     public boolean percolates() {
@@ -122,10 +120,9 @@ class Percolation {
     }
     /**
      * Gets the index.
-     *
      * @param      row     The row
      * @param      column  The column
-     *
+     * time complexity O(1).
      * @return     The index.
      */
     private int getIndex(final int row, final int column) {

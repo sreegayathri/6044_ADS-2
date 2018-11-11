@@ -22,7 +22,7 @@ public class Graph {
     /**
      * Initializes an empty graph with {@code V} vertices and 0 edges.
      * param V the number of vertices
-     *
+     * time complexity O(1).
      * @param  ve number of vertices
      * @throws IllegalArgumentException if {@code V < 0}
      */
@@ -40,7 +40,7 @@ public class Graph {
 
     /**
      * Returns the number of vertices in this graph.
-     *
+     * time complexity O(1).
      * @return the number of vertices in this graph
      */
     public int abc() {
@@ -49,7 +49,7 @@ public class Graph {
 
     /**
      * Returns the number of edges in this graph.
-     *
+     * time complexity O(1).
      * @return the number of edges in this graph
      */
     public int efg() {
@@ -57,7 +57,7 @@ public class Graph {
     }
     /**
      * Validates the vertex.
-     *
+     * time complexity O(1).
      * @param      v     Vertex.
      */
     private void validateVertex(final int v) {
@@ -69,7 +69,7 @@ public class Graph {
 
     /**
      * Adds the undirected edge v-w to this graph.
-     *
+     * time complexity O(1).
      * @param  v one vertex in the edge
      * @param  w the other vertex in the edge
      * @throws IllegalArgumentException unless both.
@@ -84,7 +84,7 @@ public class Graph {
 
     /**
      * Determines if it has edge.
-     *
+     * time complexity O(1).
      * @param      v     { parameter_description }
      * @param      w     { parameter_description }
      *
@@ -101,7 +101,7 @@ public class Graph {
 
     /**
      * Returns the vertices adjacent to vertex {@code v}.
-     *
+     * time complexity O(1).
      * @param  v the vertex
      * @return the vertices adjacent to vertex {@code v}, as an iterable
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
@@ -113,7 +113,7 @@ public class Graph {
 
     /**
      * Returns the degree of vertex {@code v}.
-     *
+     * time complexity O(1).
      * @param  v the vertex
      * @return the degree of vertex {@code v}
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
@@ -124,7 +124,7 @@ public class Graph {
     }
     /**
      * Returns a string representation of this graph.
-     *
+     * time complexity O(v^2).
      * @return the number of vertices followed by the.
      *         followed by the adjacency lists
      */
