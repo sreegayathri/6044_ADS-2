@@ -1,4 +1,4 @@
-/**
+/**.
  *  The {@code Quick3way} class provides static methods for sorting an
  *  array using quicksort with 3-way partitioning.
  *  <p>
@@ -11,7 +11,9 @@
  */
 public class Quick3way {
 
-    // This class should not be instantiated.
+    /**
+     * This class should not be instantiated.
+    */
     Quick3way() { }
 
     /**
@@ -24,7 +26,9 @@ public class Quick3way {
         assert isSorted(a);
     }
 
-    // quicksort the subarray a[lo .. hi] using 3-way partitioning
+    /**
+     * quicksort the subarray a[lo .. hi] using 3-way partitioning.
+    */
     private static void sort(Comparable[] a, int lo, int hi) { 
         if (hi <= lo) return;
         int lt = lo, gt = hi;
@@ -49,12 +53,16 @@ public class Quick3way {
     *  Helper sorting functions.
     ***************************************************************************/
     
-    // is v < w ?
+    /**
+     * is v < w ?.
+    */
     private static boolean less(Comparable v, Comparable w) {
         return v.compareTo(w) < 0;
     }
         
-    // exchange a[i] and a[j]
+    /**
+     * exchange a[i] and a[j].
+    */
     private static void exch(Object[] a, int i, int j) {
         Object swap = a[i];
         a[i] = a[j];
@@ -68,16 +76,22 @@ public class Quick3way {
     private static boolean isSorted(Comparable[] a) {
         return isSorted(a, 0, a.length - 1);
     }
-
+    /**
+     * Determines if sorted.
+     * @param      a     { parameter_description }
+     * @param      lo    The lower
+     * @param      hi    The higher
+     *
+     * @return     True if sorted, False otherwise.
+     */
     private static boolean isSorted(Comparable[] a, int lo, int hi) {
         for (int i = lo + 1; i <= hi; i++)
             if (less(a[i], a[i-1])) return false;
         return true;
     }
-
-
-
-    // print array to standard output
+    /**
+     * print array to standard output.
+     */
     private static void show(Comparable[] a) {
         for (int i = 0; i < a.length; i++) {
             System.out.println(a[i]);
