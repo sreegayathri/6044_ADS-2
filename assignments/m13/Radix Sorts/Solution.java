@@ -1,8 +1,9 @@
-import java.util.*;
+import java.util.Scanner;
+import java.lang.StringBuffer;
 /**
  * class Solution.
  */
-public class Solution {
+public final  class Solution {
 /**
  * Constructs the object.
  */
@@ -11,7 +12,7 @@ public class Solution {
      * MAIN function of quick3way.
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         Quick3way q3w = new Quick3way();
         int digit = sc.nextInt();;

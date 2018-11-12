@@ -83,7 +83,7 @@ public final class StdRandom {
 
     /**
      * Returns a random long integer uniformly in [0, n).
-     * 
+     *
      * @param n number of possible {@code long} integers
      * @return a random long integer uniformly between 0 (inclusive) and {@code n} (exclusive)
      * @throws IllegalArgumentException if {@code n <= 0}
