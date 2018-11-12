@@ -1,5 +1,4 @@
-import java.util.Scanner;
-import java.lang.StringBuffer;
+import java.util.*;
 /**
  * class Solution.
  */
