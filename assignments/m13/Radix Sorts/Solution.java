@@ -14,7 +14,6 @@ public final  class Solution {
      */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
-        Quick3way q3w = new Quick3way();
         int digit = sc.nextInt();;
         sc.nextLine();
         StringBuilder sb = new StringBuilder();
@@ -23,7 +22,7 @@ public final  class Solution {
         }
         // sort the strings
         String[] lines = sb.toString().split("::");
-        q3w.sort(lines);
+        Quick3way.sort(lines);
 
         // print the results
         String str = "[";
