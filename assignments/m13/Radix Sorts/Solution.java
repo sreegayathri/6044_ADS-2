@@ -14,21 +14,21 @@ public final  class Solution {
      */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
-        int digit = sc.nextInt();;
-        sc.nextLine();
+        int digit = Integer.parseInt(sc.nextLine());
+        String[] strings = new String[digit];
+        for (int i = 0; i < digit; i++) {
+            strings[i] = sc.nextLine();
+        }
+        Quick3way.sort(strings);
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < digit; i++) {
-            sb.append(sc.nextLine() + "::");
+        sb.append("[");
+        for (int j = 0; j < digit - 1; j++) {
+            sb.append(strings[j]);
+            sb.append(", ");
         }
-        // sort the strings
-        String[] lines = sb.toString().split("::");
-        Quick3way.sort(lines);
+        sb.append(strings[digit - 1]);
+        sb.append("]");
+        System.out.println(sb.toString());
 
-        // print the results
-        String str = "[";
-        for (int i = 0; i < digit; i++) {
-            str += lines[i] + ", ";
-        }
-        System.out.println(str.substring(0, str.length() - 2) + "]");
     }
 }

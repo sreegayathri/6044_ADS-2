@@ -38,9 +38,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 36 errors.
 Starting audit...
-[ERROR] G:\ADS-2\assignments\m13\Radix Sorts\Solution.java:17:34: Empty statement. [EmptyStatement]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] G:\ADS-2\assignments\m13\Radix Sorts\StdIn.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] G:\ADS-2\assignments\m13\Radix Sorts\StdIn.java:27: Line is longer than 80 characters (found 84). [LineLength]
