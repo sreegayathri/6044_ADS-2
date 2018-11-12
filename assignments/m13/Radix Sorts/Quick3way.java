@@ -9,7 +9,7 @@
  *  @author Robert Sedgewick
  *  @author Kevin Waynes
  */
-public class Quick3way {
+class Quick3way {
 
     /**
      * This class should not be instantiated.
@@ -20,7 +20,7 @@ public class Quick3way {
      * Rearranges the array in ascending order, using the natural order.
      * @param a the array to be sorted
      */
-    public static void sort(Comparable[] a) {
+    public static void sort(final Comparable[] a) {
         StdRandom.shuffle(a);
         sort(a, 0, a.length - 1);
         assert isSorted(a);
@@ -28,8 +28,12 @@ public class Quick3way {
 
     /**
      * quicksort the subarray a[lo .. hi] using 3-way partitioning.
-    */
-    private static void sort(Comparable[] a, int lo, int hi) { 
+     *
+     * @param      a     { parameter_description }
+     * @param      lo    The lower
+     * @param      hi    The higher
+     */
+    private static void sort(final Comparable[] a, final int lo, final int hi) {
         if (hi <= lo) return;
         int lt = lo, gt = hi;
         Comparable v = a[lo];
