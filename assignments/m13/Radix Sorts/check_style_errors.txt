@@ -38,8 +38,8 @@ Starting audit...
 Audit done.
 Checkstyle ends with 36 errors.
 Starting audit...
-[ERROR] G:\ADS-2\assignments\m13\Radix Sorts\Solution.java:2:1: Redundant import from the java.lang package - java.lang.StringBuffer. [RedundantImport]
-[ERROR] G:\ADS-2\assignments\m13\Radix Sorts\Solution.java:2:8: Unused import - java.lang.StringBuffer. [UnusedImports]
+[ERROR] G:\ADS-2\assignments\m13\Radix Sorts\Solution.java:2:1: Redundant import from the java.lang package - java.lang.StringBuilder. [RedundantImport]
+[ERROR] G:\ADS-2\assignments\m13\Radix Sorts\Solution.java:2:8: Unused import - java.lang.StringBuilder. [UnusedImports]
 [ERROR] G:\ADS-2\assignments\m13\Radix Sorts\Solution.java:18:34: Empty statement. [EmptyStatement]
 Audit done.
 Checkstyle ends with 3 errors.

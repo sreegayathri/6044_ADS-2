@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.lang.StringBuffer;
+import java.lang.StringBuilder;
 /**
  * class Solution.
  */
@@ -17,7 +17,7 @@ public final  class Solution {
         Quick3way q3w = new Quick3way();
         int digit = sc.nextInt();;
         sc.nextLine();
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < digit; i++) {
             sb.append(sc.nextLine() + "::");
         }
