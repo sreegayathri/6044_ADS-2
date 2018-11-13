@@ -70,6 +70,9 @@ public final class Solution {
             if (weight1 == Double.POSITIVE_INFINITY || weight2 == Double.
                 POSITIVE_INFINITY) {
                 System.out.println("No Path Found.");
+            } else {
+                double res = weight1 + weight2;
+                System.out.println(res);
             }
             break;
         default:
