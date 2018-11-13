@@ -4,8 +4,12 @@ Starting audit...
 [ERROR] G:\ADS-2\assignments\m12\ADS-2_Exam-2\Solution.java:31: Line is longer than 80 characters (found 97). [LineLength]
 [ERROR] G:\ADS-2\assignments\m12\ADS-2_Exam-2\Solution.java:34: Line is longer than 80 characters (found 97). [LineLength]
 [ERROR] G:\ADS-2\assignments\m12\ADS-2_Exam-2\Solution.java:60: Line is longer than 80 characters (found 98). [LineLength]
+[ERROR] G:\ADS-2\assignments\m12\ADS-2_Exam-2\Solution.java:78: Line has trailing spaces. [RegexpSingleline]
+[ERROR] G:\ADS-2\assignments\m12\ADS-2_Exam-2\Solution.java:80:24: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] G:\ADS-2\assignments\m12\ADS-2_Exam-2\Solution.java:80:25: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] G:\ADS-2\assignments\m12\ADS-2_Exam-2\Solution.java:87: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 9 errors.
 Files to process must be specified, found 0.
 Files to process must be specified, found 0.
 Files to process must be specified, found 0.
