@@ -27,8 +27,8 @@ public final class Solution {
                 parseInt(tokens[0]), Integer.
                 parseInt(tokens[1]), Double.parseDouble(tokens[2])));
             graph1.addEdge(new DirectedEdge(Integer.
-                parseInt(tokens[0]), Integer.
-                parseInt(tokens[1]), Double.parseDouble(tokens[2])));
+                parseInt(tokens[1]), Integer.
+                parseInt(tokens[0]), Double.parseDouble(tokens[2])));
         }
         String caseToGo = sc.nextLine();
         switch (caseToGo) {
