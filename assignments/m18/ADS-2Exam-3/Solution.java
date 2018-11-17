@@ -88,12 +88,21 @@ public class Solution {
     public static BinarySearchST<String, Integer> loadDictionary(String file) {
         BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
         // your code goes here
-        for (int i = 0; !StdIn.isEmpty(); i++) {
-            String key = StdIn.readString();
-            st.put(key, i);
-        }
-        for (String s : st.keys()) {
-            System.out.println(st.get(s));
+        // for (int i = 0; !StdIn.isEmpty(); i++) {
+        //     String key = StdIn.readString();
+        //     st.put(key, i);
+        // }
+        // for (String words : st.keys()) {
+        //     System.out.println(st.get(words));
+        // }
+        String[] text = toReadFile(file);
+        for (String words : text) {
+            words = words.toLowerCase();
+            if (st.contains(words)) {
+                st.put(words, st.get(words) + 1);
+            } else {
+                st.put(words, 1);
+            }
         }
         return st;
     }

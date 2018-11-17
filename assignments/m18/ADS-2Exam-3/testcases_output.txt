@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 52
 28
@@ -10,11 +10,14 @@ Expected Output:
 149
 
 Your Output: 
-Exception in thread "main" java.util.NoSuchElementException: called min() with empty symbol table
-	at BinarySearchST.min(BinarySearchST.java:274)
-	at BinarySearchST.keys(BinarySearchST.java:362)
-	at Solution.loadDictionary(Solution.java:95)
-	at Solution.main(Solution.java:14)
+52
+28
+240
+3
+98
+54
+47
+149
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -54,11 +57,8 @@ messagesome
 going
 
 Your Output: 
-Exception in thread "main" java.util.NoSuchElementException: called min() with empty symbol table
-	at BinarySearchST.min(BinarySearchST.java:274)
-	at BinarySearchST.keys(BinarySearchST.java:362)
-	at Solution.loadDictionary(Solution.java:95)
-	at Solution.main(Solution.java:23)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -126,11 +126,8 @@ fine
 seeking
 
 Your Output: 
-Exception in thread "main" java.util.NoSuchElementException: called min() with empty symbol table
-	at BinarySearchST.min(BinarySearchST.java:274)
-	at BinarySearchST.keys(BinarySearchST.java:362)
-	at Solution.loadDictionary(Solution.java:95)
-	at Solution.main(Solution.java:34)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:38)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -141,11 +138,8 @@ right
 words
 
 Your Output: 
-Exception in thread "main" java.util.NoSuchElementException: called min() with empty symbol table
-	at BinarySearchST.min(BinarySearchST.java:274)
-	at BinarySearchST.keys(BinarySearchST.java:362)
-	at Solution.loadDictionary(Solution.java:95)
-	at Solution.main(Solution.java:50)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:57)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -197,10 +191,7 @@ paper
 keep
 
 Your Output: 
-Exception in thread "main" java.util.NoSuchElementException: called min() with empty symbol table
-	at BinarySearchST.min(BinarySearchST.java:274)
-	at BinarySearchST.keys(BinarySearchST.java:362)
-	at Solution.loadDictionary(Solution.java:95)
-	at Solution.main(Solution.java:65)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:70)
 ----------------------------------------
 
