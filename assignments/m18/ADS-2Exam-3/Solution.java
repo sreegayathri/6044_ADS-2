@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 /**
  * Class for solution.
  */
@@ -97,8 +97,9 @@ class Solution {
  * @param      file  The file.
  * @return     to read words into a dictionary using bst.
  */
-    public static BinarySearchST<String, Integer> loadDictionary(String file) {
-        BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
+    public static BinarySearchST<String, Integer> loadDictionary(final String file) {
+        BinarySearchST<String, Integer>  st =
+                    new BinarySearchST<String, Integer>();
         // your code goes here
         // for (int i = 0; !StdIn.isEmpty(); i++) {
         //     String key = StdIn.readString();
@@ -172,7 +173,8 @@ class T9 {
      * @param      k      { parameter_description }
      * @return     The suggestions.
      */
-    public Iterable<String> getSuggestions(final Iterable<String> words, final int k) {
+    public Iterable<String> getSuggestions(final Iterable<String> words,
+                                final int k) {
         // your code goes here
         // StringBuilder sequence = new StringBuilder();
         // for (char c : text.toCharArray())
