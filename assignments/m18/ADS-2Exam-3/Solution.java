@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
@@ -19,7 +19,8 @@ class Solution {
         switch (cases) {
         case "loadDictionary":
             // input000.txt and output000.txt
-            BinarySearchST<String, Integer> hash = loadDictionary("/Files/t9.csv");
+            BinarySearchST<String, Integer> hash =
+                        loadDictionary("/Files/t9.csv");
             while (scan.hasNextLine()) {
                 String key = scan.nextLine();
                 System.out.println(hash.get(key));
@@ -86,12 +87,15 @@ class Solution {
 
         }
     }
-
-    /**.
-     * Don't modify this method.
+    /**
+     * { function_description }
+     *
+     * @param      file  The file
      * to read the give file.
+     * @return     { description_of_the_return_value }
      */
     public static String[] toReadFile(String file) {
+    //Don't modify this method.
         In in = new In(file);
         return in.readAllStrings();
     }

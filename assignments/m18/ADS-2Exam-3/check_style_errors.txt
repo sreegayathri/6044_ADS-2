@@ -376,15 +376,12 @@ Audit done.
 Checkstyle ends with 33 errors.
 Starting audit...
 [ERROR] G:\ADS-2\assignments\m18\ADS-2Exam-3\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] G:\ADS-2\assignments\m18\ADS-2Exam-3\Solution.java:5: Class Solution should be declared as final. [FinalClass]
-[ERROR] G:\ADS-2\assignments\m18\ADS-2Exam-3\Solution.java:22: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] G:\ADS-2\assignments\m18\ADS-2Exam-3\Solution.java:94: Expected @return tag. [JavadocMethod]
-[ERROR] G:\ADS-2\assignments\m18\ADS-2Exam-3\Solution.java:94:39: Parameter file should be final. [FinalParameters]
-[ERROR] G:\ADS-2\assignments\m18\ADS-2Exam-3\Solution.java:94:46: Expected @param tag for 'file'. [JavadocMethod]
-[ERROR] G:\ADS-2\assignments\m18\ADS-2Exam-3\Solution.java:104: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] G:\ADS-2\assignments\m18\ADS-2Exam-3\Solution.java:140:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] G:\ADS-2\assignments\m18\ADS-2Exam-3\Solution.java:90: First sentence should end with a period. [JavadocStyle]
+[ERROR] G:\ADS-2\assignments\m18\ADS-2Exam-3\Solution.java:97:39: Parameter file should be final. [FinalParameters]
+[ERROR] G:\ADS-2\assignments\m18\ADS-2Exam-3\Solution.java:108: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] G:\ADS-2\assignments\m18\ADS-2Exam-3\Solution.java:144:5: Redundant 'public' modifier. [RedundantModifier]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 5 errors.
 Starting audit...
 [ERROR] G:\ADS-2\assignments\m18\ADS-2Exam-3\StdIn.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] G:\ADS-2\assignments\m18\ADS-2Exam-3\StdIn.java:27: Line is longer than 80 characters (found 84). [LineLength]
