@@ -87,14 +87,14 @@ final class Solution {
 
         }
     }
-    /**
+    /**.
+     * to read the give file.
      * { function_description }
      *
      * @param      file  The file
-     * to read the give file.
      * @return     { description_of_the_return_value }
      */
-    public static String[] toReadFile(String file) {
+    public static String[] toReadFile(final String file) {
     //Don't modify this method.
         In in = new In(file);
         return in.readAllStrings();
@@ -105,8 +105,9 @@ final class Solution {
  * @param      file  The file.
  * @return     to read words into a dictionary using bst.
  */
-    public static BinarySearchST<String, Integer> loadDictionary(final String file) {
-        BinarySearchST<String, Integer>  st =
+    public static BinarySearchST<String, Integer>
+                    loadDictionary(final String file) {
+        BinarySearchST<String, Integer> st =
                     new BinarySearchST<String, Integer>();
         // your code goes here
         // for (int i = 0; !StdIn.isEmpty(); i++) {
