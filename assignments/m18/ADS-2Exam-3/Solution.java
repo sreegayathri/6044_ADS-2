@@ -2,13 +2,13 @@ import java.util.*;
 /**
  * Class for solution.
  */
-public final class Solution {
+class Solution {
     /**
      * Constructs the object.
      */
     Solution() { }
     /**. Don't modify this method. */
-    public static void main(final String[] args) {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String cases = scan.nextLine();
 
@@ -132,7 +132,7 @@ class T9 {
      * Constructs the object.
      * @param      st    { parameter_description }
      */
-    public T9(BinarySearchST<String, Integer> st) {
+    public T9(final BinarySearchST<String, Integer> st) {
         // your code goes here
         text = new TST();
         for (String word : st.keys()) {
@@ -147,7 +147,7 @@ class T9 {
      *
      * @return     All words.
      */
-    public Iterable<String> getAllWords(String prefix) {
+    public Iterable<String> getAllWords(final String prefix) {
         // your code goes here
         // TST text = new TST();
         return text.keysWithPrefix(prefix);
@@ -159,7 +159,7 @@ class T9 {
      *
      * @return     { description_of_the_return_value }
      */
-    public Iterable<String> potentialWords(String t9Signature) {
+    public Iterable<String> potentialWords(final String t9Signature) {
         // your code goes here
         return null;
     }
@@ -172,10 +172,10 @@ class T9 {
      * @param      k      { parameter_description }
      * @return     The suggestions.
      */
-    public Iterable<String> getSuggestions(Iterable<String> words, int k) {
+    public Iterable<String> getSuggestions(final Iterable<String> words, final int k) {
         // your code goes here
         // StringBuilder sequence = new StringBuilder();
-        // for (char c : text.toCharArray()) 
+        // for (char c : text.toCharArray())
         //     sequence.append(getDigit(c));
         // return sequence.toString();
         return null;
@@ -236,7 +236,7 @@ class T9 {
      * @param      k            { parameter_description }
      * @return     { description_of_the_return_value }
      */
-    public Iterable<String> t9(String t9Signature, int k) {
+    public Iterable<String> t9(final String t9Signature, final int k) {
         return getSuggestions(potentialWords(t9Signature), k);
     }
 }
