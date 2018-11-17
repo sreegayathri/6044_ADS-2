@@ -1,9 +1,13 @@
 import java.util.Scanner;
-
-
-public class Solution {
-
-    // Don't modify this method.
+/**
+ * Class for solution.
+ */
+public final class Solution {
+    /**
+     * Constructs the object.
+     */
+    Solution() { }
+    /**. Don't modify this method. */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String cases = scan.nextLine();
@@ -79,12 +83,20 @@ public class Solution {
         }
     }
 
-    // Don't modify this method.
+    /**. 
+     * Don't modify this method.
+     * to read the give file 
+     */
     public static String[] toReadFile(String file) {
         In in = new In(file);
         return in.readAllStrings();
     }
-
+/**
+ * Loads a dictionary.
+ * time complexity O(n).
+ * @param      file  The file.
+ * @return     to read words into a dictionary using bst.
+ */
     public static BinarySearchST<String, Integer> loadDictionary(String file) {
         BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
         // your code goes here
@@ -110,7 +122,7 @@ public class Solution {
 }
 
 class T9 {
-
+    private TST<Integer> text;
     public T9(BinarySearchST<String, Integer> st) {
         // your code goes here
         TST text = new TST();
