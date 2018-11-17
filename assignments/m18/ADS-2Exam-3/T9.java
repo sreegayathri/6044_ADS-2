@@ -1,7 +1,7 @@
 /**
  * Class for t 9.
  */
-class T9 {
+public class T9 {
     /**.
      * TST object.
      */
