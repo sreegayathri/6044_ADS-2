@@ -114,8 +114,8 @@ public final class In {
         if (url == null) throw new IllegalArgumentException("url argument is null");
         try {
             URLConnection site = url.openConnection();
-            InputStream is     = site.getInputStream();
-            scanner            = new Scanner(new BufferedInputStream(is), CHARSET_NAME);
+            InputStream is = site.getInputStream();
+            scanner = new Scanner(new BufferedInputStream(is), CHARSET_NAME);
             scanner.useLocale(LOCALE);
         }
         catch (IOException ioe) {
@@ -186,8 +186,8 @@ public final class In {
             // HttpURLConnection site = (HttpURLConnection) url.openConnection();
             // site.addRequestProperty("User-Agent", "Mozilla/4.76");
 
-            InputStream is     = site.getInputStream();
-            scanner            = new Scanner(new BufferedInputStream(is), CHARSET_NAME);
+            InputStream is = site.getInputStream();
+            scanner = new Scanner(new BufferedInputStream(is), CHARSET_NAME);
             scanner.useLocale(LOCALE);
         }
         catch (IOException ioe) {
@@ -201,7 +201,7 @@ public final class In {
      * <p>
      * Note that this does not create a defensive copy, so the
      * scanner will be mutated as you read on. 
-     *
+     * time complexity O(1).
      * @param  scanner the scanner
      * @throws IllegalArgumentException if {@code scanner} is {@code null}
      */
@@ -212,7 +212,7 @@ public final class In {
 
     /**
      * Returns true if this input stream exists.
-     *
+     * time complexity O(1).
      * @return {@code true} if this input stream exists; {@code false} otherwise
      */
     public boolean exists()  {
@@ -226,7 +226,7 @@ public final class In {
      * Returns true if input stream is empty (except possibly whitespace).
      * Use this to know whether the next call to {@link #readString()}, 
      * {@link #readDouble()}, etc will succeed.
-     *
+     * time complexity O(1).
      * @return {@code true} if this input stream is empty (except possibly whitespace);
      *         {@code false} otherwise
      */
@@ -239,7 +239,7 @@ public final class In {
      * Use this method to know whether the
      * next call to {@link #readLine()} will succeed.
      * This method is functionally equivalent to {@link #hasNextChar()}.
-     *
+     * time complexity O(1).
      * @return {@code true} if this input stream has more input (including whitespace);
      *         {@code false} otherwise
      */
@@ -251,7 +251,7 @@ public final class In {
      * Returns true if this input stream has more input (including whitespace).
      * Use this method to know whether the next call to {@link #readChar()} will succeed.
      * This method is functionally equivalent to {@link #hasNextLine()}.
-     * 
+     * time complexity O(1).
      * @return {@code true} if this input stream has more input (including whitespace);
      *         {@code false} otherwise   
      */
@@ -265,7 +265,7 @@ public final class In {
 
    /**
      * Reads and returns the next line in this input stream.
-     *
+     * time complexity O(1).
      * @return the next line in this input stream; {@code null} if no such line
      */
     public String readLine() {
@@ -281,7 +281,7 @@ public final class In {
 
     /**
      * Reads and returns the next character in this input stream.
-     *
+     * time complexity O(1).
      * @return the next {@code char} in this input stream
      * @throws NoSuchElementException if the input stream is empty
      */
@@ -303,7 +303,7 @@ public final class In {
 
    /**
      * Reads and returns the remainder of this input stream, as a string.
-     *
+     * time complexity O(1).
      * @return the remainder of this input stream, as a string
      */
     public String readAll() {
@@ -317,9 +317,9 @@ public final class In {
     }
 
 
-   /**
+   /**.
      * Reads the next token from this input stream and returns it as a {@code String}.
-     *
+     * time complexity O(1).
      * @return the next {@code String} in this input stream
      * @throws NoSuchElementException if the input stream is empty
      */
@@ -336,7 +336,7 @@ public final class In {
    /**
      * Reads the next token from this input stream, parses it as a {@code int},
      * and returns the {@code int}.
-     *
+     * time complexity O(1).
      * @return the next {@code int} in this input stream
      * @throws NoSuchElementException if the input stream is empty
      * @throws InputMismatchException if the next token cannot be parsed as an {@code int}
@@ -359,7 +359,7 @@ public final class In {
    /**
      * Reads the next token from this input stream, parses it as a {@code double},
      * and returns the {@code double}.
-     *
+     * time complexity O(1).
      * @return the next {@code double} in this input stream
      * @throws NoSuchElementException if the input stream is empty
      * @throws InputMismatchException if the next token cannot be parsed as a {@code double}
@@ -382,7 +382,7 @@ public final class In {
    /**
      * Reads the next token from this input stream, parses it as a {@code float},
      * and returns the {@code float}.
-     *
+     * time complexity O(1).
      * @return the next {@code float} in this input stream
      * @throws NoSuchElementException if the input stream is empty
      * @throws InputMismatchException if the next token cannot be parsed as a {@code float}
@@ -405,7 +405,7 @@ public final class In {
    /**
      * Reads the next token from this input stream, parses it as a {@code long},
      * and returns the {@code long}.
-     *
+     * time complexity O(1).
      * @return the next {@code long} in this input stream
      * @throws NoSuchElementException if the input stream is empty
      * @throws InputMismatchException if the next token cannot be parsed as a {@code long}
@@ -428,7 +428,7 @@ public final class In {
    /**
      * Reads the next token from this input stream, parses it as a {@code short},
      * and returns the {@code short}.
-     *
+     * time complexity O(1).
      * @return the next {@code short} in this input stream
      * @throws NoSuchElementException if the input stream is empty
      * @throws InputMismatchException if the next token cannot be parsed as a {@code short}
@@ -453,7 +453,7 @@ public final class In {
      * and returns the {@code byte}.
      * <p>
      * To read binary data, use {@link BinaryIn}.
-     *
+     * time complexity O(1).
      * @return the next {@code byte} in this input stream
      * @throws NoSuchElementException if the input stream is empty
      * @throws InputMismatchException if the next token cannot be parsed as a {@code byte}
@@ -477,7 +477,7 @@ public final class In {
      * Reads the next token from this input stream, parses it as a {@code boolean}
      * (interpreting either {@code "true"} or {@code "1"} as {@code true},
      * and either {@code "false"} or {@code "0"} as {@code false}).
-     *
+     * time complexity O(1).
      * @return the next {@code boolean} in this input stream
      * @throws NoSuchElementException if the input stream is empty
      * @throws InputMismatchException if the next token cannot be parsed as a {@code boolean}
@@ -501,7 +501,7 @@ public final class In {
     /**
      * Reads all remaining tokens from this input stream and returns them as
      * an array of strings.
-     *
+     * time complexity O(n).
      * @return all remaining tokens in this input stream, as an array of strings
      */
     public String[] readAllStrings() {
@@ -519,7 +519,7 @@ public final class In {
     /**
      * Reads all remaining lines from this input stream and returns them as
      * an array of strings.
-     *
+     * time complexity O(n).
      * @return all remaining lines in this input stream, as an array of strings
      */
     public String[] readAllLines() {
@@ -534,7 +534,7 @@ public final class In {
     /**
      * Reads all remaining tokens from this input stream, parses them as integers,
      * and returns them as an array of integers.
-     *
+     * time complexity O(n).
      * @return all remaining lines in this input stream, as an array of integers
      */
     public int[] readAllInts() {
@@ -548,7 +548,7 @@ public final class In {
     /**
      * Reads all remaining tokens from this input stream, parses them as longs,
      * and returns them as an array of longs.
-     *
+     * time complexity O(n).
      * @return all remaining lines in this input stream, as an array of longs
      */
     public long[] readAllLongs() {
@@ -562,7 +562,7 @@ public final class In {
     /**
      * Reads all remaining tokens from this input stream, parses them as doubles,
      * and returns them as an array of doubles.
-     *
+     * time complexity O(n).
      * @return all remaining lines in this input stream, as an array of doubles
      */
     public double[] readAllDoubles() {
@@ -577,6 +577,7 @@ public final class In {
 
    /**
      * Closes this input stream.
+     * time complexity O(1).
      */
     public void close() {
         scanner.close();  
@@ -585,7 +586,7 @@ public final class In {
     /**
      * Reads all integers from a file and returns them as
      * an array of integers.
-     *
+     * time complexity O(1).
      * @param      filename the name of the file
      * @return     the integers in the file
      * @deprecated Replaced by {@code new In(filename)}.{@link #readAllInts()}.
@@ -598,7 +599,7 @@ public final class In {
    /**
      * Reads all doubles from a file and returns them as
      * an array of doubles.
-     *
+     * time complexity O(1).
      * @param      filename the name of the file
      * @return     the doubles in the file
      * @deprecated Replaced by {@code new In(filename)}.{@link #readAllDoubles()}.
@@ -611,7 +612,7 @@ public final class In {
    /**
      * Reads all strings from a file and returns them as
      * an array of strings.
-     *
+     * time complexity O(1).
      * @param      filename the name of the file
      * @return     the strings in the file
      * @deprecated Replaced by {@code new In(filename)}.{@link #readAllStrings()}.
@@ -624,7 +625,7 @@ public final class In {
     /**
      * Reads all integers from standard input and returns them
      * an array of integers.
-     *
+     * time complexity O(1).
      * @return     the integers on standard input
      * @deprecated Replaced by {@link StdIn#readAllInts()}.
      */
@@ -636,7 +637,7 @@ public final class In {
    /**
      * Reads all doubles from standard input and returns them as
      * an array of doubles.
-     *
+     * time complexity O(1).
      * @return     the doubles on standard input
      * @deprecated Replaced by {@link StdIn#readAllDoubles()}.
      */
@@ -648,7 +649,7 @@ public final class In {
    /**
      * Reads all strings from standard input and returns them as
      *  an array of strings.
-     *
+     * time complexity O(1).
      * @return     the strings on standard input
      * @deprecated Replaced by {@link StdIn#readAllStrings()}.
      */

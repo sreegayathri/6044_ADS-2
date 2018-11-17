@@ -59,9 +59,19 @@
  *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
  */
 public class TST<Value> {
-    private int n;              // size
-    private Node<Value> root;   // root of TST
-
+    /**
+     * size.
+     */
+    private int n;
+    /**
+     * root node.
+     */
+    private Node<Value> root;
+/**
+ * Class for node.
+ *
+ * @param      <Value>  The value
+ */
     private static class Node<Value> {
         private char c;                        // character
         private Node<Value> left, mid, right;  // left, middle, and right subtries
@@ -75,6 +85,7 @@ public class TST<Value> {
     }
 
     /**
+     * time complexity O(1).
      * Returns the number of key-value pairs in this symbol table.
      * @return the number of key-value pairs in this symbol table
      */
@@ -84,6 +95,7 @@ public class TST<Value> {
 
     /**
      * Does this symbol table contain the given key?
+     * time complexity O(1).
      * @param key the key
      * @return {@code true} if this symbol table contains {@code key} and
      *     {@code false} otherwise
@@ -98,6 +110,7 @@ public class TST<Value> {
 
     /**
      * Returns the value associated with the given key.
+     * time complexity O(1).
      * @param key the key
      * @return the value associated with the given key if the key is in the symbol table
      *     and {@code null} if the key is not in the symbol table
@@ -113,7 +126,9 @@ public class TST<Value> {
         return x.val;
     }
 
-    // return subtrie corresponding to given key
+    /**. return subtrie corresponding to given key
+     * time complexity O(1).
+     */
     private Node<Value> get(Node<Value> x, String key, int d) {
         if (x == null) return null;
         if (key.length() == 0) throw new IllegalArgumentException("key must have length >= 1");
@@ -127,6 +142,7 @@ public class TST<Value> {
     /**
      * Inserts the key-value pair into the symbol table, overwriting the old value
      * with the new value if the key is already in the symbol table.
+     * time complexity O(1).
      * If the value is {@code null}, this effectively deletes the key from the symbol table.
      * @param key the key
      * @param val the value
@@ -139,7 +155,16 @@ public class TST<Value> {
         if (!contains(key)) n++;
         root = put(root, key, val, 0);
     }
-
+/**
+ * adding cal value.
+ * time complexity O(1).
+ * @param      x     { parameter_description }
+ * @param      key   The key
+ * @param      val   The value
+ * @param      d     { parameter_description }
+ *
+ * @return     { description_of_the_return_value }
+ */
     private Node<Value> put(Node<Value> x, String key, Value val, int d) {
         char c = key.charAt(d);
         if (x == null) {
@@ -156,6 +181,7 @@ public class TST<Value> {
     /**
      * Returns the string in the symbol table that is the longest prefix of {@code query},
      * or {@code null}, if no such string.
+     * time complexity O(n).
      * @param query the query string
      * @return the string in the symbol table that is the longest prefix of {@code query},
      *     or {@code null} if no such string
@@ -186,6 +212,7 @@ public class TST<Value> {
      * Returns all keys in the symbol table as an {@code Iterable}.
      * To iterate over all of the keys in the symbol table named {@code st},
      * use the foreach notation: {@code for (Key key : st.keys())}.
+     * time complexity O(1).
      * @return all keys in the symbol table as an {@code Iterable}
      */
     public Iterable<String> keys() {
@@ -196,6 +223,7 @@ public class TST<Value> {
 
     /**
      * Returns all of the keys in the set that start with {@code prefix}.
+     * time complexity O(1).
      * @param prefix the prefix
      * @return all of the keys in the set that start with {@code prefix},
      *     as an iterable
@@ -213,7 +241,9 @@ public class TST<Value> {
         return queue;
     }
 
-    // all keys in subtrie rooted at x with given prefix
+    /**.
+     * time complexity O(1).
+     * all keys in subtrie rooted at x with given prefix*/
     private void collect(Node<Value> x, StringBuilder prefix, Queue<String> queue) {
         if (x == null) return;
         collect(x.left,  prefix, queue);
@@ -227,6 +257,7 @@ public class TST<Value> {
     /**
      * Returns all of the keys in the symbol table that match {@code pattern},
      * where . symbol is treated as a wildcard character.
+     * time complexity O(1).
      * @param pattern the pattern
      * @return all of the keys in the symbol table that match {@code pattern},
      *     as an iterable, where . is treated as a wildcard character.
@@ -236,7 +267,15 @@ public class TST<Value> {
         collect(root, new StringBuilder(), 0, pattern, queue);
         return queue;
     }
- 
+ /**
+  * collect method.
+  * time complexity O(1).
+  * @param      x        { parameter_description }
+  * @param      prefix   The prefix
+  * @param      i        { parameter_description }
+  * @param      pattern  The pattern
+  * @param      queue    The queue
+  */
     private void collect(Node<Value> x, StringBuilder prefix, int i, String pattern, Queue<String> queue) {
         if (x == null) return;
         char c = pattern.charAt(i);
