@@ -120,37 +120,70 @@ public final class Solution {
     }
 
 }
-
+/**
+ * Class for t 9.
+ */
 class T9 {
+    /**.
+     * TST object.
+     */
     private TST<Integer> text;
+    /**.
+     * Constructs the object.
+     * @param      st    { parameter_description }
+     */
     public T9(BinarySearchST<String, Integer> st) {
         // your code goes here
-        TST text = new TST();
+        text = new TST();
         for (String word : st.keys()) {
             text.put(word, st.get(word));
         }
     }
-
-    // get all the prefixes that match with given prefix.
+    /**.
+     * Gets all words.
+     * get all the prefixes that match with given prefix.
+     * @param      prefix  The prefix
+     *
+     * @return     All words.
+     */
     public Iterable<String> getAllWords(String prefix) {
         // your code goes here
-        TST text = new TST();
+        // TST text = new TST();
         return text.keysWithPrefix(prefix);
     }
-
+    /**.
+     * { function_description }
+     *
+     * @param      t9Signature  The t 9 signature
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Iterable<String> potentialWords(String t9Signature) {
         // your code goes here
         return null;
     }
 
-    // return all possibilities(words), find top k with highest frequency.
+    /**.
+     * Gets the suggestions.
+     * return all possibilities(words), find top k with highest frequency;
+     *
+     * @param      words  The words
+     * @param      k      { parameter_description }
+     * @return     The suggestions.
+     */
     public Iterable<String> getSuggestions(Iterable<String> words, int k) {
         // your code goes here
         return null;
     }
 
-    // final output
-    // Don't modify this method.
+    //final output
+    //Don't modify this method.
+    /**.
+     * { function_description }
+     * @param      t9Signature  The t 9 signature
+     * @param      k            { parameter_description }
+     * @return     { description_of_the_return_value }
+     */
     public Iterable<String> t9(String t9Signature, int k) {
         return getSuggestions(potentialWords(t9Signature), k);
     }
