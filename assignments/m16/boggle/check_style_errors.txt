@@ -742,12 +742,8 @@ Starting audit...
 [ERROR] G:\ADS-2\assignments\m16\boggle\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] G:\ADS-2\assignments\m16\boggle\Solution.java:1:8: Unused import - java.util.Arrays. [UnusedImports]
 [ERROR] G:\ADS-2\assignments\m16\boggle\Solution.java:6: Class Solution should be declared as final. [FinalClass]
-[ERROR] G:\ADS-2\assignments\m16\boggle\Solution.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] G:\ADS-2\assignments\m16\boggle\Solution.java:14: Line has trailing spaces. [RegexpSingleline]
-[ERROR] G:\ADS-2\assignments\m16\boggle\Solution.java:30: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] G:\ADS-2\assignments\m16\boggle\Solution.java:46: Line is longer than 80 characters (found 84). [LineLength]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 3 errors.
 Starting audit...
 [ERROR] G:\ADS-2\assignments\m16\boggle\StdIn.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] G:\ADS-2\assignments\m16\boggle\StdIn.java:27: Line is longer than 80 characters (found 84). [LineLength]
