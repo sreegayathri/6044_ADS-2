@@ -6,9 +6,13 @@ class Solution {
     /**
      * Constructs the object.
      */
-    Solution() { }
+    private Solution() { }
+    /**
+     * main method.
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
     /**. Don't modify this method. */
-    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String cases = scan.nextLine();
 
@@ -83,9 +87,9 @@ class Solution {
         }
     }
 
-    /**. 
+    /**.
      * Don't modify this method.
-     * to read the give file 
+     * to read the give file.
      */
     public static String[] toReadFile(String file) {
         In in = new In(file);
