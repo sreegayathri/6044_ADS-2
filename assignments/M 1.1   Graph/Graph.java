@@ -66,7 +66,7 @@ class GraphList implements Graph {
     /**
      * Initializes an empty graph with V vertices and 0 edges.
      * param V the number of vertices
-     *
+     * time complexity O(v).
      * @param  vt number of vertices
      */
     GraphList(final int vt) {

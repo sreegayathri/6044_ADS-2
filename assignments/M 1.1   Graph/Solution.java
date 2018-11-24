@@ -73,7 +73,7 @@ class Graphmatrix implements Graph {
     }
     /**
      * Adds an edge.
-     *
+     * time complexity O(1).
      * @param      v     { parameter_description }
      * @param      w     { parameter_description }
      */

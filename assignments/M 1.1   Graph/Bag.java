@@ -1,12 +1,11 @@
+import java.util.Iterator;
+import java.util.NoSuchElementException;
 /**
  * Program for Bags.
  */
-import java.util.Iterator;
-import java.util.NoSuchElementException;
 
 /**
  * Class for bag.
- *
  * @param      <Item>  The item
  */
 public class Bag<Item> implements Iterable<Item> {
@@ -44,7 +43,7 @@ public class Bag<Item> implements Iterable<Item> {
     /**
      * Determines if empty.
      * Is the BAG empty?
-     *
+     * time complexity O(1).
      * @return     True if empty, False otherwise.
      */
     public boolean isEmpty() {
@@ -53,7 +52,7 @@ public class Bag<Item> implements Iterable<Item> {
 
     /**
      * Return the number of items in the bag.
-     *
+     * time complexity O(1).
      * @return     { description_of_the_return_value }
      */
     public int size() {
@@ -62,7 +61,7 @@ public class Bag<Item> implements Iterable<Item> {
 
     /**
      * Add the item to the bag.
-     *
+     * time complexity O(1).
      * @param      item  The item
      */
     public void add(final Item item) {
@@ -76,7 +75,7 @@ public class Bag<Item> implements Iterable<Item> {
 
     /**
      * Return an iterator that iterates over the items in the bag.
-     *
+     * time complexity O(1).
      * @return     { description_of_the_return_value }
      */
     public Iterator<Item> iterator()  {
@@ -93,7 +92,7 @@ public class Bag<Item> implements Iterable<Item> {
         private Node current = first;
         /**
          * Determines if it has next.
-         *
+         * time complexity O(1).
          * @return     True if has next, False otherwise.
          */
         public boolean hasNext() {
@@ -101,13 +100,14 @@ public class Bag<Item> implements Iterable<Item> {
         }
         /**
          * function for remove.
+         * time complexity O(1).
          */
         public void remove() {
             throw new UnsupportedOperationException();
         }
         /**
          * function for next.
-         *
+         * time complexity O(1).
          * @return     { description_of_the_return_value }
          */
         public Item next() {

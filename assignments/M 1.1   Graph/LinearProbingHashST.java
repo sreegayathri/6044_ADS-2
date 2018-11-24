@@ -6,6 +6,9 @@ import java.lang.IllegalArgumentException;
  * @param      <Value>  The value
  */
 public class LinearProbingHashST<Key, Value> {
+    /**
+     * { var_description }.
+     */
     private static final int INIT_CAPACITY = 4;
 
     private int n;           // number of key-value pairs in the symbol table
@@ -21,7 +24,7 @@ public class LinearProbingHashST<Key, Value> {
 
     /**
      * Initializes an empty symbol table with the specified initial capacity.
-     *
+     * time complexity O(1).
      * @param capacity the initial capacity
      */
     public LinearProbingHashST(int capacity) {
@@ -33,7 +36,7 @@ public class LinearProbingHashST<Key, Value> {
 
     /**
      * Returns the number of key-value pairs in this symbol table.
-     *
+     *time complexity O(1).
      * @return the number of key-value pairs in this symbol table
      */
     public int size() {
@@ -42,7 +45,7 @@ public class LinearProbingHashST<Key, Value> {
 
     /**
      * Returns true if this symbol table is empty.
-     *
+     * time complexity O(1).
      * @return {@code true} if this symbol table is empty;
      *         {@code false} otherwise
      */
@@ -52,7 +55,7 @@ public class LinearProbingHashST<Key, Value> {
 
     /**
      * Returns true if this symbol table contains the specified key.
-     *
+     * time complexity O(1).
      * @param  key the key
      * @return {@code true} if this symbol table contains {@code key};
      *         {@code false} otherwise
@@ -63,12 +66,16 @@ public class LinearProbingHashST<Key, Value> {
         return get(key) != null;
     }
 
-    // hash function for keys - returns value between 0 and M-1
+    /**. 
+     * time complexity O(1).
+     * hash function for keys - returns value between 0 and M-1 */
     private int hash(Key key) {
         return (key.hashCode() & 0x7fffffff) % m;
     }
 
-    // resizes the hash table to the given capacity by re-hashing all of the keys
+    /**.
+     * time complexity O(n).
+     * resizes the hash table to the given capacity by re-hashing all of the keys*/
     private void resize(int capacity) {
         LinearProbingHashST<Key, Value> temp = new LinearProbingHashST<Key, Value>(capacity);
         for (int i = 0; i < m; i++) {
@@ -87,7 +94,7 @@ public class LinearProbingHashST<Key, Value> {
      * table already contains the specified key. Deletes the specified
      * key (and its associated value) from this symbol table
      * if the specified value is {@code null}.
-     *
+     * time complexity O(n).
      * @param  key the key
      * @param  val the value
      * @throws IllegalArgumentException if {@code key} is {@code null}
@@ -118,9 +125,10 @@ public class LinearProbingHashST<Key, Value> {
 
     /**
      * Returns the value associated with the specified key.
+     * time complexity O(n).
      * @param key the key
      * @return the value associated with {@code key};
-     *         {@code null} if no such value
+     * {@code null} if no such value
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
     public Value get(final Key key) {
@@ -139,6 +147,7 @@ public class LinearProbingHashST<Key, Value> {
      * Removes the specified key and its associated
      * value from this symbol table
      * (if the key is in this symbol table).
+     * time complexity O(n).
      * @param  key the key
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
@@ -182,7 +191,7 @@ public class LinearProbingHashST<Key, Value> {
      * Returns all keys in this symbol table as an {@code Iterable}.
      * To iterate over all of the keys in the symbol table named {@code st},
      * use the foreach notation: {@code for (Key key : st.keys())}.
-     *
+     * time complexity O(n).
      * @return all keys in this symbol table
      */
     public Iterable<Key> keys() {
@@ -194,16 +203,15 @@ public class LinearProbingHashST<Key, Value> {
     }
 
     /**. integrity check - don't check after each put() because
-    // integrity not maintained during a delete() */
+     *  integrity not maintained during a delete()
+     * time complexity O(n).*/
     private boolean check() {
-
         // check that hash table is at most 50% full
         if (m < 2*n) {
             System.err.println("Hash table size m = " +
                 m + "; array size n = " + n);
             return false;
         }
-
         // check that each key in table can be found by get()
         for (int i = 0; i < m; i++) {
             if (keys[i] == null) { continue; }
