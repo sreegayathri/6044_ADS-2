@@ -1,27 +1,17 @@
 import java.util.Scanner;
-/**
- * Class for solution.
- * @author sreegayathri.
- */
-public final class Solution {
-    /**
-     * Constructs the object.
-     */
-    private Solution() { }
-    /**
-     * { main function }.
-     *
-     * @param      args  The arguments
-     */
-    public static void main(final String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int vertices = Integer.parseInt(sc.nextLine());
-        int edges = Integer.parseInt(sc.nextLine());
-        EdgeWeightedGraph ewgraph = new EdgeWeightedGraph(vertices);
-        while (sc.hasNextLine()) {
-            String[] input = sc.nextLine().split(" ");
-            Edge edg = new Edge(Integer.parseInt(input[0]),
-                Integer.parseInt(input[1]), Double.parseDouble(input[2]));
+class Solution {
+    Solution() {
+        //
+    }
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String[] lines = scan.nextLine().split(" ");
+        int circles  = Integer.parseInt(lines[0]);
+        int routes  = Integer.parseInt(lines[1]);
+        EdgeWeightedGraph ewgraph = new EdgeWeightedGraph(circles);
+        for (int i = 0; i < routes; i++) {
+            String[] route = scan.nextLine().split(" ");
+            Edge edg = new Edge(Integer.parseInt(route[0]),Integer.parseInt(route[1]),Double.parseDouble(route[2]));
             ewgraph.addEdge(edg);
         }
         KruskalMST krush = new KruskalMST(ewgraph);
