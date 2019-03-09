@@ -42,12 +42,13 @@ public final class Solution {
             Edge edg = new Edge(Integer.parseInt(route[0]) - 1, Integer.parseInt(route[1]) - 1, Double.parseDouble(route[2]));
             ewgraph.addEdge(edg);
         }
-        while (scan.hasNextLine()) {
+        while (routes > 0) {
             String[] tokens1 = scan.nextLine().split(" ");
             int home = sol.getIndex(tokens1[0]);
             SP l = new SP(ewgraph, home);
             int destination = sol.getIndex(tokens1[1]);
             System.out.printf("%d\n", (int) l.distTo(destination));
+            routes--;
         }
     }
 }

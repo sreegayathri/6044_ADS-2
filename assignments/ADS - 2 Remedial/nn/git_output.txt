@@ -1,0 +1,501 @@
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	deleted:    ../../../.git.zip
+	deleted:    ../../1.1 Graph/Bag.java
+	deleted:    ../../1.1 Graph/Graph.java
+	deleted:    ../../1.1 Graph/GraphList .java
+	deleted:    ../../1.1 Graph/GraphMatrix .java
+	deleted:    ../../1.1 Graph/LinearProbingHashST.java
+	deleted:    ../../1.1 Graph/Queue.java
+	deleted:    ../../1.1 Graph/ReadME.pdf
+	deleted:    ../../1.1 Graph/Solution.java
+	deleted:    ../../1.1 Graph/md5/input000.txt
+	deleted:    ../../1.1 Graph/md5/input001.txt
+	deleted:    ../../1.1 Graph/md5/input002.txt
+	deleted:    ../../1.1 Graph/md5/input003.txt
+	deleted:    ../../1.1 Graph/md5/input004.txt
+	deleted:    ../../1.1 Graph/md5/input005.txt
+	deleted:    ../../1.1 Graph/md5/input006.txt
+	deleted:    ../../1.1 Graph/md5/input007.txt
+	deleted:    ../../1.1 Graph/md5/output000.txt
+	deleted:    ../../1.1 Graph/md5/output001.txt
+	deleted:    ../../1.1 Graph/md5/output002.txt
+	deleted:    ../../1.1 Graph/md5/output003.txt
+	deleted:    ../../1.1 Graph/md5/output004.txt
+	deleted:    ../../1.1 Graph/md5/output005.txt
+	deleted:    ../../1.1 Graph/md5/output006.txt
+	deleted:    ../../1.1 Graph/md5/output007.txt
+	deleted:    ../../1.1 Graph/md5/problem_id.txt
+	deleted:    ../../1.1 Graph/testcases/input000.txt
+	deleted:    ../../1.1 Graph/testcases/input001.txt
+	deleted:    ../../1.1 Graph/testcases/input002.txt
+	deleted:    ../../1.1 Graph/testcases/input003.txt
+	deleted:    ../../1.1 Graph/testcases/input004.txt
+	deleted:    ../../1.1 Graph/testcases/input005.txt
+	deleted:    ../../1.1 Graph/testcases/input006.txt
+	deleted:    ../../1.1 Graph/testcases/input007.txt
+	deleted:    ../../1.1 Graph/testcases/output000.txt
+	deleted:    ../../1.1 Graph/testcases/output001.txt
+	deleted:    ../../1.1 Graph/testcases/output002.txt
+	deleted:    ../../1.1 Graph/testcases/output003.txt
+	deleted:    ../../1.1 Graph/testcases/output004.txt
+	deleted:    ../../1.1 Graph/testcases/output005.txt
+	deleted:    ../../1.1 Graph/testcases/output006.txt
+	deleted:    ../../1.1 Graph/testcases/output007.txt
+	deleted:    ../../1.1 Graph/testcases/problem_id.txt
+	deleted:    ../../2.1 CC_Percolation/Bag.java
+	deleted:    ../../2.1 CC_Percolation/DepthFirstPaths.java
+	deleted:    ../../2.1 CC_Percolation/Graph.java
+	deleted:    ../../2.1 CC_Percolation/Percolation.pdf
+	deleted:    ../../2.1 CC_Percolation/Queue.java
+	deleted:    ../../2.1 CC_Percolation/Solution.java
+	deleted:    ../../2.1 CC_Percolation/md5/input000.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input001.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input002.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input003.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input004.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input005.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input006.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input007.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input008.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input009.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input010.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input011.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input012.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input013.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input014.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input015.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input016.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input017.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input018.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input019.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input020.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input021.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input022.txt
+	deleted:    ../../2.1 CC_Percolation/md5/input023.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output000.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output001.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output002.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output003.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output004.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output005.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output006.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output007.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output008.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output009.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output010.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output011.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output012.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output013.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output014.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output015.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output016.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output017.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output018.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output019.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output020.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output021.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output022.txt
+	deleted:    ../../2.1 CC_Percolation/md5/output023.txt
+	deleted:    ../../2.1 CC_Percolation/md5/problem_id.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input000.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input001.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input002.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input003.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input004.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input005.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input006.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input007.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input008.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input009.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input010.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input011.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input012.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input013.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input014.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input015.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input016.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input017.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input018.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input019.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input020.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input021.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input022.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/input023.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output000.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output001.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output002.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output003.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output004.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output005.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output006.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output007.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output008.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output009.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output010.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output011.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output012.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output013.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output014.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output015.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output016.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output017.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output018.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output019.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output020.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output021.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output022.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/output023.txt
+	deleted:    ../../2.1 CC_Percolation/testcases/problem_id.txt
+	deleted:    ../../3.1 Directed Cycle/Bag$1.class
+	deleted:    ../../3.1 Directed Cycle/Bag$ListIterator.class
+	deleted:    ../../3.1 Directed Cycle/Bag$Node.class
+	deleted:    ../../3.1 Directed Cycle/Bag.class
+	deleted:    ../../3.1 Directed Cycle/Bag.java
+	deleted:    ../../3.1 Directed Cycle/Digraph.class
+	deleted:    ../../3.1 Directed Cycle/Digraph.java
+	deleted:    ../../3.1 Directed Cycle/Directed Cycle.pdf
+	deleted:    ../../3.1 Directed Cycle/DirectedCycle.class
+	deleted:    ../../3.1 Directed Cycle/DirectedCycle.java
+	deleted:    ../../3.1 Directed Cycle/Solution.class
+	deleted:    ../../3.1 Directed Cycle/Solution.java
+	deleted:    ../../3.1 Directed Cycle/Stack$1.class
+	deleted:    ../../3.1 Directed Cycle/Stack$ListIterator.class
+	deleted:    ../../3.1 Directed Cycle/Stack$Node.class
+	deleted:    ../../3.1 Directed Cycle/Stack.class
+	deleted:    ../../3.1 Directed Cycle/Stack.java
+	deleted:    ../../3.1 Directed Cycle/check_style_errors.txt
+	deleted:    ../../3.1 Directed Cycle/git_output.txt
+	deleted:    ../../3.1 Directed Cycle/md5/input000.txt
+	deleted:    ../../3.1 Directed Cycle/md5/input001.txt
+	deleted:    ../../3.1 Directed Cycle/md5/input002.txt
+	deleted:    ../../3.1 Directed Cycle/md5/input003.txt
+	deleted:    ../../3.1 Directed Cycle/md5/input004.txt
+	deleted:    ../../3.1 Directed Cycle/md5/input005.txt
+	deleted:    ../../3.1 Directed Cycle/md5/input006.txt
+	deleted:    ../../3.1 Directed Cycle/md5/input007.txt
+	deleted:    ../../3.1 Directed Cycle/md5/output000.txt
+	deleted:    ../../3.1 Directed Cycle/md5/output001.txt
+	deleted:    ../../3.1 Directed Cycle/md5/output002.txt
+	deleted:    ../../3.1 Directed Cycle/md5/output003.txt
+	deleted:    ../../3.1 Directed Cycle/md5/output004.txt
+	deleted:    ../../3.1 Directed Cycle/md5/output005.txt
+	deleted:    ../../3.1 Directed Cycle/md5/output006.txt
+	deleted:    ../../3.1 Directed Cycle/md5/output007.txt
+	deleted:    ../../3.1 Directed Cycle/md5/problem_id.txt
+	deleted:    ../../3.1 Directed Cycle/md5/score.txt
+	deleted:    ../../3.1 Directed Cycle/result/score.json
+	deleted:    ../../3.1 Directed Cycle/testcases/input000.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/input001.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/input002.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/input003.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/input004.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/input005.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/input006.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/input007.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/output000.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/output001.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/output002.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/output003.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/output004.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/output005.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/output006.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/output007.txt
+	deleted:    ../../3.1 Directed Cycle/testcases/problem_id.txt
+	deleted:    ../../3.1 Directed Cycle/testcases_output.txt
+	modified:   ../git_output.txt
+	modified:   ../result/score.json
+	modified:   ../../M 1.1   Graph/Solution.java
+	modified:   ../../M 1.1   Graph/git_output.txt
+	modified:   ../../M 2   CC_Percolation/git_output.txt
+	modified:   ../../M 2   CC_Percolation/result/score.json
+	deleted:    ../../M 3.1  Directed Cycle/Bag$1.class
+	deleted:    ../../M 3.1  Directed Cycle/Bag$ListIterator.class
+	deleted:    ../../M 3.1  Directed Cycle/Bag$Node.class
+	deleted:    ../../M 3.1  Directed Cycle/Bag.class
+	deleted:    ../../M 3.1  Directed Cycle/Bag.java
+	deleted:    ../../M 3.1  Directed Cycle/Digraph.class
+	deleted:    ../../M 3.1  Directed Cycle/Digraph.java
+	deleted:    ../../M 3.1  Directed Cycle/Directed Cycle.pdf
+	deleted:    ../../M 3.1  Directed Cycle/DirectedCycle.class
+	deleted:    ../../M 3.1  Directed Cycle/DirectedCycle.java
+	deleted:    ../../M 3.1  Directed Cycle/Sloution.class
+	deleted:    ../../M 3.1  Directed Cycle/Solution.java
+	deleted:    ../../M 3.1  Directed Cycle/Stack$1.class
+	deleted:    ../../M 3.1  Directed Cycle/Stack$ListIterator.class
+	deleted:    ../../M 3.1  Directed Cycle/Stack$Node.class
+	deleted:    ../../M 3.1  Directed Cycle/Stack.class
+	deleted:    ../../M 3.1  Directed Cycle/Stack.java
+	deleted:    ../../M 3.1  Directed Cycle/check_style_errors.txt
+	deleted:    ../../M 3.1  Directed Cycle/git_output.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/input000.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/input001.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/input002.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/input003.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/input004.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/input005.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/input006.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/input007.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/output000.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/output001.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/output002.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/output003.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/output004.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/output005.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/output006.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/output007.txt
+	deleted:    ../../M 3.1  Directed Cycle/md5/problem_id.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/input000.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/input001.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/input002.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/input003.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/input004.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/input005.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/input006.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/input007.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/output000.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/output001.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/output002.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/output003.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/output004.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/output005.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/output006.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/output007.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases/problem_id.txt
+	deleted:    ../../M 3.1  Directed Cycle/testcases_output.txt
+	deleted:    ../../M 3.2  Bipartite/Bag.java
+	deleted:    ../../M 3.2  Bipartite/Bipartite.class
+	deleted:    ../../M 3.2  Bipartite/Bipartite.java
+	deleted:    ../../M 3.2  Bipartite/Bipartite.pdf
+	deleted:    ../../M 3.2  Bipartite/Graph$AdjIterator.class
+	deleted:    ../../M 3.2  Bipartite/Graph.class
+	deleted:    ../../M 3.2  Bipartite/Graph.java
+	deleted:    ../../M 3.2  Bipartite/Queue.java
+	deleted:    ../../M 3.2  Bipartite/Solution.class
+	deleted:    ../../M 3.2  Bipartite/Solution.java
+	deleted:    ../../M 3.2  Bipartite/Stack$1.class
+	deleted:    ../../M 3.2  Bipartite/Stack$ListIterator.class
+	deleted:    ../../M 3.2  Bipartite/Stack$Node.class
+	deleted:    ../../M 3.2  Bipartite/Stack.class
+	deleted:    ../../M 3.2  Bipartite/Stack.java
+	deleted:    ../../M 3.2  Bipartite/check_style_errors.txt
+	deleted:    ../../M 3.2  Bipartite/git_output.txt
+	deleted:    ../../M 3.2  Bipartite/md5/input000.txt
+	deleted:    ../../M 3.2  Bipartite/md5/input001.txt
+	deleted:    ../../M 3.2  Bipartite/md5/input002.txt
+	deleted:    ../../M 3.2  Bipartite/md5/input003.txt
+	deleted:    ../../M 3.2  Bipartite/md5/input004.txt
+	deleted:    ../../M 3.2  Bipartite/md5/output000.txt
+	deleted:    ../../M 3.2  Bipartite/md5/output001.txt
+	deleted:    ../../M 3.2  Bipartite/md5/output002.txt
+	deleted:    ../../M 3.2  Bipartite/md5/output003.txt
+	deleted:    ../../M 3.2  Bipartite/md5/output004.txt
+	deleted:    ../../M 3.2  Bipartite/md5/problem_id.txt
+	deleted:    ../../M 3.2  Bipartite/md5/score.txt
+	deleted:    ../../M 3.2  Bipartite/result/score.json
+	deleted:    ../../M 3.2  Bipartite/testcases/input000.txt
+	deleted:    ../../M 3.2  Bipartite/testcases/input001.txt
+	deleted:    ../../M 3.2  Bipartite/testcases/input002.txt
+	deleted:    ../../M 3.2  Bipartite/testcases/input003.txt
+	deleted:    ../../M 3.2  Bipartite/testcases/input004.txt
+	deleted:    ../../M 3.2  Bipartite/testcases/output000.txt
+	deleted:    ../../M 3.2  Bipartite/testcases/output001.txt
+	deleted:    ../../M 3.2  Bipartite/testcases/output002.txt
+	deleted:    ../../M 3.2  Bipartite/testcases/output003.txt
+	deleted:    ../../M 3.2  Bipartite/testcases/output004.txt
+	deleted:    ../../M 3.2  Bipartite/testcases/problem_id.txt
+	deleted:    ../../M 3.2  Bipartite/testcases_output.txt
+	modified:   ../../M3/3.1  Directed Cycle/Bag.java
+	modified:   ../../M3/3.1  Directed Cycle/Digraph.java
+	modified:   ../../M3/3.1  Directed Cycle/DirectedCycle.java
+	modified:   ../../M3/3.1  Directed Cycle/git_output.txt
+	modified:   ../../M3/3.1  Directed Cycle/result/score.json
+	deleted:    ../../M4/Bag$1.class
+	deleted:    ../../M4/Bag$ListIterator.class
+	deleted:    ../../M4/Bag$Node.class
+	deleted:    ../../M4/Bag.class
+	deleted:    ../../M4/Bag.java
+	modified:   ../../M4/CodeCamp- WordNet/SAP.java
+	modified:   ../../M4/CodeCamp- WordNet/git_output.txt
+	deleted:    ../../M4/Digraph.class
+	deleted:    ../../M4/Digraph.java
+	deleted:    ../../M4/DirectedCycle .java
+	deleted:    ../../M4/DirectedCycle.class
+	deleted:    ../../M4/DirectedCycle.java
+	deleted:    ../../M4/Files/hypernyms.txt
+	deleted:    ../../M4/Files/hypernyms100-subgraph.txt
+	deleted:    ../../M4/Files/hypernyms1000-subgraph.txt
+	deleted:    ../../M4/Files/hypernyms10000-subgraph.txt
+	deleted:    ../../M4/Files/hypernyms100K.txt
+	deleted:    ../../M4/Files/hypernyms11AmbiguousAncestor.txt
+	deleted:    ../../M4/Files/hypernyms11ManyPathsOneAncestor.txt
+	deleted:    ../../M4/Files/hypernyms15Path.txt
+	deleted:    ../../M4/Files/hypernyms15Tree.txt
+	deleted:    ../../M4/Files/hypernyms200K.txt
+	deleted:    ../../M4/Files/hypernyms300K.txt
+	deleted:    ../../M4/Files/hypernyms3InvalidCycle.txt
+	deleted:    ../../M4/Files/hypernyms3InvalidTwoRoots.txt
+	deleted:    ../../M4/Files/hypernyms500-subgraph.txt
+	deleted:    ../../M4/Files/hypernyms5000-subgraph.txt
+	deleted:    ../../M4/Files/hypernyms50000-subgraph.txt
+	deleted:    ../../M4/Files/hypernyms6InvalidCycle+Path.txt
+	deleted:    ../../M4/Files/hypernyms6InvalidCycle.txt
+	deleted:    ../../M4/Files/hypernyms6InvalidTwoRoots.txt
+	deleted:    ../../M4/Files/hypernyms6TwoAncestors.txt
+	deleted:    ../../M4/Files/hypernyms8ManyAncestors.txt
+	deleted:    ../../M4/Files/hypernyms8WrongBFS.txt
+	deleted:    ../../M4/Files/hypernymsManyPathsOneAncestor.txt
+	deleted:    ../../M4/Files/synsets.txt
+	deleted:    ../../M4/Files/synsets100-subgraph.txt
+	deleted:    ../../M4/Files/synsets1000-subgraph.txt
+	deleted:    ../../M4/Files/synsets10000-subgraph.txt
+	deleted:    ../../M4/Files/synsets11.txt
+	deleted:    ../../M4/Files/synsets15.txt
+	deleted:    ../../M4/Files/synsets3.txt
+	deleted:    ../../M4/Files/synsets500-subgraph.txt
+	deleted:    ../../M4/Files/synsets5000-subgraph.txt
+	deleted:    ../../M4/Files/synsets50000-subgraph.txt
+	deleted:    ../../M4/Files/synsets6.txt
+	deleted:    ../../M4/Files/synsets8.txt
+	deleted:    ../../M4/In.class
+	deleted:    ../../M4/In.java
+	deleted:    ../../M4/LinearProbingHashST.class
+	deleted:    ../../M4/LinearProbingHashST.java
+	deleted:    ../../M4/Queue$1.class
+	deleted:    ../../M4/Queue$ListIterator.class
+	deleted:    ../../M4/Queue$Node.class
+	deleted:    ../../M4/Queue.class
+	deleted:    ../../M4/Queue.java
+	deleted:    ../../M4/SAP.java
+	deleted:    ../../M4/Solution.class
+	deleted:    ../../M4/Solution.java
+	deleted:    ../../M4/Stack$1.class
+	deleted:    ../../M4/Stack$ListIterator.class
+	deleted:    ../../M4/Stack$Node.class
+	deleted:    ../../M4/Stack.class
+	deleted:    ../../M4/Stack.java
+	deleted:    ../../M4/StdIn.class
+	deleted:    ../../M4/StdIn.java
+	deleted:    ../../M4/WordNet.class
+	deleted:    ../../M4/WordNet.java
+	deleted:    ../../M4/WordNet.pdf
+	deleted:    ../../M4/check_style_errors.txt
+	deleted:    ../../M4/git_output.txt
+	deleted:    ../../M4/md5/input000.txt
+	deleted:    ../../M4/md5/input001.txt
+	deleted:    ../../M4/md5/input002.txt
+	deleted:    ../../M4/md5/input003.txt
+	deleted:    ../../M4/md5/input004.txt
+	deleted:    ../../M4/md5/input005.txt
+	deleted:    ../../M4/md5/input006.txt
+	deleted:    ../../M4/md5/input007.txt
+	deleted:    ../../M4/md5/input008.txt
+	deleted:    ../../M4/md5/input009.txt
+	deleted:    ../../M4/md5/input010.txt
+	deleted:    ../../M4/md5/input011.txt
+	deleted:    ../../M4/md5/input012.txt
+	deleted:    ../../M4/md5/input013.txt
+	deleted:    ../../M4/md5/input014.txt
+	deleted:    ../../M4/md5/output000.txt
+	deleted:    ../../M4/md5/output001.txt
+	deleted:    ../../M4/md5/output002.txt
+	deleted:    ../../M4/md5/output003.txt
+	deleted:    ../../M4/md5/output004.txt
+	deleted:    ../../M4/md5/output005.txt
+	deleted:    ../../M4/md5/output006.txt
+	deleted:    ../../M4/md5/output007.txt
+	deleted:    ../../M4/md5/output008.txt
+	deleted:    ../../M4/md5/output009.txt
+	deleted:    ../../M4/md5/output010.txt
+	deleted:    ../../M4/md5/output011.txt
+	deleted:    ../../M4/md5/output012.txt
+	deleted:    ../../M4/md5/output013.txt
+	deleted:    ../../M4/md5/output014.txt
+	deleted:    ../../M4/md5/problem_id.txt
+	deleted:    ../../M4/md5/score.txt
+	deleted:    ../../M4/result/score.json
+	deleted:    ../../M4/testcases/input000.txt
+	deleted:    ../../M4/testcases/input001.txt
+	deleted:    ../../M4/testcases/input002.txt
+	deleted:    ../../M4/testcases/input003.txt
+	deleted:    ../../M4/testcases/input004.txt
+	deleted:    ../../M4/testcases/input005.txt
+	deleted:    ../../M4/testcases/input006.txt
+	deleted:    ../../M4/testcases/input007.txt
+	deleted:    ../../M4/testcases/input008.txt
+	deleted:    ../../M4/testcases/input009.txt
+	deleted:    ../../M4/testcases/input010.txt
+	deleted:    ../../M4/testcases/input011.txt
+	deleted:    ../../M4/testcases/input012.txt
+	deleted:    ../../M4/testcases/input013.txt
+	deleted:    ../../M4/testcases/input014.txt
+	deleted:    ../../M4/testcases/output000.txt
+	deleted:    ../../M4/testcases/output001.txt
+	deleted:    ../../M4/testcases/output002.txt
+	deleted:    ../../M4/testcases/output003.txt
+	deleted:    ../../M4/testcases/output004.txt
+	deleted:    ../../M4/testcases/output005.txt
+	deleted:    ../../M4/testcases/output006.txt
+	deleted:    ../../M4/testcases/output007.txt
+	deleted:    ../../M4/testcases/output008.txt
+	deleted:    ../../M4/testcases/output009.txt
+	deleted:    ../../M4/testcases/output010.txt
+	deleted:    ../../M4/testcases/output011.txt
+	deleted:    ../../M4/testcases/output012.txt
+	deleted:    ../../M4/testcases/output013.txt
+	deleted:    ../../M4/testcases/output014.txt
+	deleted:    ../../M4/testcases/problem_id.txt
+	deleted:    ../../M4/testcases_output.txt
+	deleted:    ../../M4/view/Bag.java
+	deleted:    ../../M4/view/In.java
+	deleted:    ../../M4/view/LinearProbingHashST.java
+	deleted:    ../../M4/view/Queue.java
+	deleted:    ../../M4/view/SAP.java
+	deleted:    ../../M4/view/Solution.java
+	deleted:    ../../M4/view/Stack.java
+	deleted:    ../../M4/view/WordNet.java
+	modified:   ../../M7/1. MST/git_output.txt
+	modified:   ../../M7/1. MST/java unique programs/KruskalMST.java
+	modified:   ../../M7/1. MST/result/score.json
+	modified:   ../../m10/Seam Carving/Solution.java
+	modified:   ../../m10/Seam Carving/git_output.txt
+	modified:   ../../m12/ADS-2_Exam-2/git_output.txt
+	modified:   ../../m13/Radix Sorts/Solution.java
+	modified:   ../../m13/Radix Sorts/git_output.txt
+	modified:   ../../m13/Radix Sorts/java files/StdRandom.java
+	modified:   ../../m13/Radix Sorts/result/score.json
+	modified:   ../../m14/Assignment-1/git_output.txt
+	modified:   ../../m16/boggle/git_output.txt
+	modified:   ../../m16/boggle/result/score.json
+	modified:   ../../m18/ADS-2Exam-3/Files/t9.csv
+	modified:   ../../m18/ADS-2Exam-3/Solution.java
+	modified:   ../../m18/ADS-2Exam-3/git_output.txt
+	modified:   ../../m18/ADS-2Exam-3/java/TST.java
+	modified:   ../../m18/ADS-2Exam-3/result/score.json
+	modified:   ../../m6/ADS-2Week-1/git_output.txt
+	modified:   ../../m6/ADS-2Week-1/result/score.json
+	modified:   ../../m8/1. Shortest Paths/git_output.txt
+	modified:   ../../m8/1. Shortest Paths/result/score.json
+	deleted:    ../../../temp.txt
+
+Untracked files:
+	../../Graphmatrix.java
+	../../M3/M 3.2  Bipartite/
+	../../WordNet/
+	../../burrows/
+	../../m13/ss - 12_nov
+	../../m14/Assignment-1/md5/score.txt
+	../../m14/Assignment-1/result/
+	../../m16/TST.java
+	../../m18/ADS-2Exam-3/sreegayathri.m4a
+	../../m24/BSTLinked.java
+
+no changes added to commit
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/sreegayathri/ADS-2.git        
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/sreegayathri/6044_ADS-2.git
+   3fc40ff..cbabee9  master -> master

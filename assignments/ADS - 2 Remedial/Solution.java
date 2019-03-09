@@ -20,10 +20,10 @@ class Solution {
         for (Edge e : ewgraph.edges()) {
             int  vertex = e.either();
             int edge = e.other(vertex);
-            int x  = vertex +1;
-            int y = edge + 1;
-            System.out.println(x + " : " + y);   
-            System.out.println( e.weight());  
+            System.out.println(vertex + " " + edge);
+            // int x  = vertex +1;
+            // int y = edge + 1;
+            // System.out.println(x + " : " + y);   
         }
     }
 }
