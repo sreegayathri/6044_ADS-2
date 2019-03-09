@@ -3,7 +3,13 @@ Expected Output:
 15
 
 Your Output: 
-15.00000
+Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Double
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Unknown Source)
+	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Unknown Source)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Unknown Source)
+	at java.base/java.util.Formatter.format(Unknown Source)
+	at java.base/java.io.PrintStream.format(Unknown Source)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -11,7 +17,13 @@ Expected Output:
 1106
 
 Your Output: 
-1106.00000
+Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Double
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Unknown Source)
+	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Unknown Source)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Unknown Source)
+	at java.base/java.util.Formatter.format(Unknown Source)
+	at java.base/java.io.PrintStream.format(Unknown Source)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -19,7 +31,13 @@ Expected Output:
 49950000
 
 Your Output: 
-49950000.00000
+Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Double
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Unknown Source)
+	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Unknown Source)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Unknown Source)
+	at java.base/java.util.Formatter.format(Unknown Source)
+	at java.base/java.io.PrintStream.format(Unknown Source)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -27,7 +45,13 @@ Expected Output:
 6359060
 
 Your Output: 
-6359060.00000
+Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Double
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Unknown Source)
+	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Unknown Source)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Unknown Source)
+	at java.base/java.util.Formatter.format(Unknown Source)
+	at java.base/java.io.PrintStream.format(Unknown Source)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -35,7 +59,13 @@ Expected Output:
 115820
 
 Your Output: 
-115820.00000
+Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Double
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Unknown Source)
+	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Unknown Source)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Unknown Source)
+	at java.base/java.util.Formatter.format(Unknown Source)
+	at java.base/java.io.PrintStream.format(Unknown Source)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -43,6 +73,12 @@ Expected Output:
 15
 
 Your Output: 
-15.00000
+Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Double
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Unknown Source)
+	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Unknown Source)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Unknown Source)
+	at java.base/java.util.Formatter.format(Unknown Source)
+	at java.base/java.io.PrintStream.format(Unknown Source)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
