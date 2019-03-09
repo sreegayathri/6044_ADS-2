@@ -3,7 +3,7 @@ Expected Output:
 15
 
 Your Output: 
-Exception in thread "main" java.lang.IllegalArgumentException: vertex 5 is not between 0 and 4
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 4 is not between 0 and 3
 	at EdgeWeightedGraph.validateVertex(EdgeWeightedGraph.java:142)
 	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:155)
 	at Solution.main(Solution.java:15)
@@ -14,9 +14,9 @@ Expected Output:
 1106
 
 Your Output: 
-Exception in thread "main" java.lang.IllegalArgumentException: vertex 4 is not between 0 and 3
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 3 is not between 0 and 2
 	at EdgeWeightedGraph.validateVertex(EdgeWeightedGraph.java:142)
-	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:156)
+	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:155)
 	at Solution.main(Solution.java:15)
 ----------------------------------------
 
@@ -25,7 +25,7 @@ Expected Output:
 49950000
 
 Your Output: 
-Exception in thread "main" java.lang.IllegalArgumentException: vertex 1000 is not between 0 and 999
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 999 is not between 0 and 998
 	at EdgeWeightedGraph.validateVertex(EdgeWeightedGraph.java:142)
 	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:156)
 	at Solution.main(Solution.java:15)
@@ -36,7 +36,7 @@ Expected Output:
 6359060
 
 Your Output: 
-Exception in thread "main" java.lang.IllegalArgumentException: vertex 1000 is not between 0 and 999
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 999 is not between 0 and 998
 	at EdgeWeightedGraph.validateVertex(EdgeWeightedGraph.java:142)
 	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:156)
 	at Solution.main(Solution.java:15)
@@ -47,7 +47,7 @@ Expected Output:
 115820
 
 Your Output: 
-Exception in thread "main" java.lang.IllegalArgumentException: vertex 1000 is not between 0 and 999
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 999 is not between 0 and 998
 	at EdgeWeightedGraph.validateVertex(EdgeWeightedGraph.java:142)
 	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:156)
 	at Solution.main(Solution.java:15)
@@ -58,7 +58,7 @@ Expected Output:
 15
 
 Your Output: 
-Exception in thread "main" java.lang.IllegalArgumentException: vertex 5 is not between 0 and 4
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 4 is not between 0 and 3
 	at EdgeWeightedGraph.validateVertex(EdgeWeightedGraph.java:142)
 	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:155)
 	at Solution.main(Solution.java:15)
