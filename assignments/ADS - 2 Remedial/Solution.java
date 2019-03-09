@@ -22,7 +22,8 @@ class Solution {
             int edge = e.other(vertex);
             int x  = vertex +1;
             int y = edge + 1;
-            System.out.println(x + " : " + y + e.weight());        
+            System.out.println(x + " : " + y);   
+            System.out.println( e.weight());  
         }
     }
 }
