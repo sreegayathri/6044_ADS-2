@@ -17,7 +17,11 @@ class Solution {
         KruskalMST krush = new KruskalMST(ewgraph);
         System.out.format("%.0f", krush.weight());
         System.out.println("");
-        for (Edge e : krush.edges()) {
+        for (Edge e : ewgraph.edges()) {
+            int  vertex = e.either();
+            int edge = e.other(vertex);
+            int x  = vertex +1;
+            int y = edge + 1;
             System.out.println(e);        
         }
     }

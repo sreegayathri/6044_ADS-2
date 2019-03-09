@@ -336,9 +336,10 @@ Starting audit...
 [ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Solution.java:6:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Solution.java:6:29: Parameter args should be final. [FinalParameters]
 [ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Solution.java:14: Line is longer than 80 characters (found 126). [LineLength]
-[ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Solution.java:21: Line has trailing spaces. [RegexpSingleline]
+[ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Solution.java:23:30: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Solution.java:25: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 9 errors.
 Starting audit...
 [ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
 [ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Stack.java:14: Line has trailing spaces. [RegexpSingleline]
