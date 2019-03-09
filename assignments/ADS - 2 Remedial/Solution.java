@@ -22,7 +22,7 @@ class Solution {
             int edge = e.other(vertex);
             int x  = vertex +1;
             int y = edge + 1;
-            System.out.println(e);        
+            System.out.println(x + " : " + y );        
         }
     }
 }
