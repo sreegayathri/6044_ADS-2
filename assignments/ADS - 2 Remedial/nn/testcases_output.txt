@@ -1,0 +1,48 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+15
+
+Your Output: 
+
+----------------------------------------
+
+########## Testcase 1: Failed ##########
+Expected Output: 
+1106
+
+Your Output: 
+
+----------------------------------------
+
+########## Testcase 2: Failed ##########
+Expected Output: 
+49950000
+
+Your Output: 
+
+----------------------------------------
+
+########## Testcase 3: Failed ##########
+Expected Output: 
+6359060
+
+Your Output: 
+
+----------------------------------------
+
+########## Testcase 4: Failed ##########
+Expected Output: 
+115820
+
+Your Output: 
+
+----------------------------------------
+
+########## Testcase 5: Failed ##########
+Expected Output: 
+15
+
+Your Output: 
+
+----------------------------------------
+
