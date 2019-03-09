@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.IllegalArgumentException;
 /**
  * Class for solution.
  * @author sreegayathri.
@@ -16,7 +17,6 @@ public final class Solution {
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] line = sc.nextLine().split(" ");
-
         int vertices = Integer.parseInt(line[0]);
         int edges = Integer.parseInt(line[1]);
         EdgeWeightedGraph ewgraph = new EdgeWeightedGraph(vertices);

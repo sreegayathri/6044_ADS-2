@@ -329,7 +329,10 @@ Starting audit...
 Audit done.
 Checkstyle ends with 34 errors.
 Starting audit...
+[ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Solution.java:2:1: Redundant import from the java.lang package - java.lang.IllegalArgumentException. [RedundantImport]
+[ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Solution.java:2:8: Unused import - java.lang.IllegalArgumentException. [UnusedImports]
 Audit done.
+Checkstyle ends with 2 errors.
 Starting audit...
 [ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
 [ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Stack.java:14: Line has trailing spaces. [RegexpSingleline]
