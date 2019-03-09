@@ -338,9 +338,8 @@ Starting audit...
 [ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Solution.java:14: Line is longer than 80 characters (found 126). [LineLength]
 [ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Solution.java:23:30: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Solution.java:25: Line has trailing spaces. [RegexpSingleline]
-[ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Solution.java:25:45: ')' is preceded with whitespace. [ParenPad]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 9 errors.
 Starting audit...
 [ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
 [ERROR] G:\ADS-2\assignments\ADS - 2 Remedial\Stack.java:14: Line has trailing spaces. [RegexpSingleline]
