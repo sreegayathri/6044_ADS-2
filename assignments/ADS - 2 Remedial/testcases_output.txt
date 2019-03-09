@@ -25,13 +25,10 @@ Expected Output:
 49950000
 
 Your Output: 
-Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Double
-	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Unknown Source)
-	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Unknown Source)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Unknown Source)
-	at java.base/java.util.Formatter.format(Unknown Source)
-	at java.base/java.io.PrintStream.format(Unknown Source)
-	at Solution.main(Solution.java:18)
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 1000 is not between 0 and 999
+	at EdgeWeightedGraph.validateVertex(EdgeWeightedGraph.java:142)
+	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:156)
+	at Solution.main(Solution.java:15)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########

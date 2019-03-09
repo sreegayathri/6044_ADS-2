@@ -9,12 +9,12 @@ class Solution {
         int circles  = Integer.parseInt(lines[0]);
         int routes  = Integer.parseInt(lines[1]);
         EdgeWeightedGraph ewgraph = new EdgeWeightedGraph(circles);
-        for (int i = 1; i < routes-1; i++) {
+        for (int i = 0; i < routes; i++) {
             String[] route = scan.nextLine().split(" ");
-            Edge edg = new Edge(Integer.parseInt(route[0]),Integer.parseInt(route[1]),Integer.parseInt(route[2]));
+            Edge edg = new Edge(Integer.parseInt(route[0]),Integer.parseInt(route[1]),Double.parseDouble(route[2]));
             ewgraph.addEdge(edg);
         }
         KruskalMST krush = new KruskalMST(ewgraph);
-        System.out.format("%d", krush.weight());
+        System.out.format("%.5f", krush.weight());
     }
 }
