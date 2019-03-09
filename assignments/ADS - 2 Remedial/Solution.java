@@ -9,7 +9,7 @@ class Solution {
         int circles  = Integer.parseInt(lines[0]);
         int routes  = Integer.parseInt(lines[1]);
         EdgeWeightedGraph ewgraph = new EdgeWeightedGraph(circles);
-        for (int i = 0; i < routes; i++) {
+        while (scan.hasNextLine()) {
             String[] route = scan.nextLine().split(" ");
             Edge edg = new Edge(Integer.parseInt(route[0]),Integer.parseInt(route[1]),Double.parseDouble(route[2]));
             ewgraph.addEdge(edg);
